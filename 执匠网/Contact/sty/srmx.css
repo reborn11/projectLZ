@@ -1,0 +1,76 @@
+header {
+  float: left;
+  text-align: center;
+  height: 1.92000307rem;
+  font-size: 0.96000154rem;
+  background: #ffffff;
+  width: 100%;
+}
+header > p {
+  display: inline-block;
+  width: 4.80000768rem;
+  font-size: 0.76800123rem;
+  height: 100%;
+  text-align: center;
+  line-height: 1.92000307rem;
+}
+.back-color {
+  color: #02b300;
+  border-bottom: 0.09600015rem solid #02b300;
+}
+.content,
+.con-yue {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.yuefen {
+  float: left;
+  height: 1.4400023rem;
+  width: 100%;
+  padding: 0 0.48000077rem;
+  line-height: 1.4400023rem;
+  font-size: 0.76800123rem;
+}
+.yuef-yue {
+  float: left;
+}
+.con-yue > li {
+  float: left;
+  width: 100%;
+  height: 4.08000653rem;
+  padding: 0 0.48000077rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+}
+.li-big {
+  float: left;
+  width: 13.92002227rem;
+  height: 100%;
+}
+.li-riq {
+  float: left;
+  color: #555555;
+  font-weight: 300;
+  width: 3.74400599rem;
+}
+.li-qiana {
+  float: left;
+  width: 8.40001344rem;
+}
+.i-ri {
+  color: #000000;
+  font-weight: 300;
+}
+.qia {
+  font-weight: 300;
+  color: #666666;
+}
+.li-big > p {
+  margin-top: 0.67200108rem;
+}
+.yue-dongj {
+  float: right;
+  line-height: 4.08000653rem;
+  color: #1897d2;
+}

@@ -1,0 +1,33 @@
+textarea {
+  float: left;
+  width: 17.04002726rem;
+  margin: 0 0.48000077rem 0.24000038rem 0.48000077rem;
+  height: 7.72801236rem;
+  resize: none;
+  font-size: 0.67200108rem;
+  padding: 0.96000154rem 0.48000077rem;
+  border: none;
+}
+input {
+  width: 17.04002726rem;
+  float: left;
+  height: 2.35200376rem;
+  background: #02b300;
+  color: #ffffff;
+  font-size: 0.81600131rem;
+  border: none;
+  border-radius: 0.19200031rem;
+  margin: 0 0.48000077rem;
+}
+.tongj {
+  float: left;
+  width: 100%;
+  text-align: right;
+  line-height: 1.20000192rem;
+  height: 1.20000192rem;
+  padding: 0 0.48000077rem;
+  margin-bottom: 0.72000115rem;
+}
+.back-color {
+  color: #777777;
+}

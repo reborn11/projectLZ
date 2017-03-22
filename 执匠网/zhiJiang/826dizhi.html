@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定制</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="screen-orientation" content="portrait">
+    <link rel="stylesheet" href="./public/css/commo.css">
+    <link rel="stylesheet" href="sty/dizhi.css">
+
+</head>
+<body>
+
+<ul class="content">
+    <li class="con">
+        <div class="con-big">
+            <p class="big-name">牛晓梅</p>
+            <p class="big-name big-nam">15021585820</p>
+            <p class="address">上海市普陀区市普陀区光复西路2899弄2号楼713室</p>
+        </div>
+        <div class="con-mor">
+            <div class="mor-lef">
+                <span class="mor-l"></span>
+                <p class="more">设为默认</p>
+            </div>
+            <div class="mor-rig">
+                <p class="rig-rig">删除</p>
+                <soan class="mor-shanc"></soan>
+            </div>
+            <div class="mor-rig">
+                <p class="rig-rig">编辑</p>
+                <soan class="mor-shanc mor-sh"></soan>
+            </div>
+        </div>
+    </li>
+    <li class="con">
+        <div class="con-big">
+            <p class="big-name">袁理开</p>
+            <p class="big-name big-nam">15021585820</p>
+            <p class="address">上海市普陀区市普陀区光复西路2899弄2号楼713室</p>
+        </div>
+        <div class="con-mor">
+            <div class="mor-lef">
+                <span class="mor-l"></span>
+                <p class="more">设为默认</p>
+            </div>
+            <div class="mor-rig">
+                <p class="rig-rig">删除</p>
+                <soan class="mor-shanc"></soan>
+            </div>
+            <div class="mor-rig">
+                <p class="rig-rig">编辑</p>
+                <soan class="mor-shanc mor-sh"></soan>
+            </div>
+        </div>
+    </li>
+</ul>
+
+<footer>
+    新增地址
+</footer>
+</body>
+<script src="./public/js/jquery.min.js"></script>
+<script src="./public/js/var.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.mor-lef').click(function(){
+            $(this).addClass('yuan');
+            $('.mor-lef').not(this).removeClass('yuan');
+        });
+        $('.mor-rig').click(function(){
+            $(this).parent().parent().remove();
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,160 @@
+header {
+  float: left;
+  width: 100%;
+  height: 1.92000307rem;
+  border-bottom: 1px solid #e6e6e6;
+  line-height: 1.92000307rem;
+  background: #ffffff;
+}
+.head-a {
+  float: left;
+  margin-left: 2.11200338rem;
+}
+.head-b {
+  float: right;
+  margin-right: 2.11200338rem;
+}
+.head-qb {
+  width: 4.80000768rem;
+  height: 1.92000307rem;
+  text-align: center;
+}
+.head-back {
+  color: #02b300;
+  border-bottom: 0.09600015rem solid #02b300;
+}
+.content {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.content li {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6;
+  height: auto;
+  padding: 0 0.48000077rem;
+  margin-bottom: 0.48000077rem;
+  background: #ffffff;
+}
+.cont-head {
+  float: left;
+  width: 100%;
+  height: 2.64000422rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.shij {
+  float: left;
+  line-height: 3.12000499rem;
+  font-size: 0.76800123rem;
+}
+.guanz,
+.guanza {
+  float: right;
+  width: 3.12000499rem;
+  margin-top: 0.96000154rem;
+  height: 1.08000173rem;
+  font-size: 0.624001rem;
+  line-height: 1.05600169rem;
+  text-align: center;
+  border-radius: 1.08000173rem;
+  border: 1px solid #999;
+}
+.gua {
+  float: right;
+  width: 3.12000499rem;
+  margin-top: 0.96000154rem;
+  height: 1.08000173rem;
+  font-size: 0.624001rem;
+  line-height: 1.05600169rem;
+  text-align: center;
+  border-radius: 1.08000173rem;
+  border: 1px solid #999;
+}
+.guanza {
+  color: #02b300;
+  display: none;
+  border: 1px solid #02b300;
+}
+.cont-con {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6;
+  height: auto;
+  padding: 1.4400023rem 0 0.96000154rem 0;
+}
+.con-img {
+  float: left;
+  margin-right: 1.20000192rem;
+  width: 4.27200684rem;
+  height: 4.27200684rem;
+  border-radius: 0.19200031rem;
+}
+.con-title {
+  float: left;
+  width: 11.52001843rem;
+  font-size: 0.76800123rem;
+}
+.con-jieg {
+  float: left;
+  width: 11.52001843rem;
+  font-size: 0.72000115rem;
+  margin-top: 0.14400023rem;
+  color: #c91623;
+}
+.con-neir {
+  float: left;
+  font-size: 0.624001rem;
+  width: 11.52001843rem;
+  margin-top: 0.19200031rem;
+  color: #666;
+}
+.con-foole {
+  float: left;
+  width: 100%;
+  height: 2.59200415rem;
+  line-height: 2.59200415rem;
+  background: #ffffff;
+}
+.biaoq {
+  float: left;
+  color: #555;
+  margin-right: 0.96000154rem;
+}
+.foole-rig {
+  float: right;
+  color: #555;
+  font-size: 0.72000115rem;
+}
+.foole-rig > span {
+  color: #c91623;
+  font-weight: 700;
+}
+.jiezhi > div > p {
+  color: #999999;
+}
+.tanc {
+  margin: auto;
+  display: none;
+  position: fixed;
+  top: -5.28000845rem;
+  left: 0;
+  right: 0;
+  border-radius: 0.19200031rem;
+  font-size: 0.76800123rem;
+  bottom: 0;
+  width: 11.28001805rem;
+  height: 2.40000384rem;
+  background: rgba(0, 0, 0, 0.6);
+}
+.tanc > p {
+  float: left;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #ffffff;
+  line-height: 2.40000384rem;
+}
+footer > a {
+  width: 33.33333333%;
+}

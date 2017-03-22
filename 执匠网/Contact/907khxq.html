@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定制</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="screen-orientation" content="portrait">
+    <link rel="stylesheet" href="./public/css/commo.css">
+    <link rel="stylesheet" href="sty/khxq.css">
+</head>
+<body>
+<header>
+    <p>状态：方案征集中</p>
+    <p>订单编号：6556411</p>
+    <p>提交：2016-08-09</p>
+    <p>据方案截止：3天</p>
+</header>
+<div class="content">
+    <div class="cont-use">
+        <div class="use-con">
+            <p>用途：自用</p>
+            <p>形制：把件</p>
+            <p>价格：￥10,000-15,000</p>
+            <p>尺寸：无</p>
+        </div>
+        <p class="use-las">心意大师：王朝阳&nbsp&nbsp董春雨</p>
+    </div>
+
+    <div class="cont-use">
+        <p class="use-titl">需求描述：</p>
+        <p class="titil-con">平安无事福一块,尺寸要在15-16cm左右,主题可任务或者动物.料子要好,图案带料子选定后与设计讨论后再做决定</p>
+    </div>
+
+    <ul class="cont-tulie">
+        <div class="tulie-titl">
+            <p class="titl-fir">图例</p>
+        </div>
+        <li>
+            <img src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/1.png" alt="">
+            <p class="titl-biq">冰种飘蓝花</p>
+            <p class="tit-con">安无事福一块,尺寸要在15-16cm左右,主题可任务或安无事福一块,尺寸要在15-16cm左右,主题可任务或安无事福一块,尺寸要在15-16cm左右,主题可任务或</p>
+            <p class="use-las se-la">参考价：￥10,000</p>
+        </li>
+
+        <li>
+            <img src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/1.png" alt="">
+            <p class="titl-biq">冰种飘蓝花</p>
+            <p class="tit-con">安无事福一块,尺寸要在15-16cm左右,主题可任务或安无事福一块,尺寸要在15-16cm左右,主题可任务或安无事福一块,尺寸要在15-16cm左右,主题可任务或</p>
+            <p class="use-las se-la">参考价：￥10,000</p>
+        </li>
+    </ul>
+</div>
+
+
+<div class="footer">
+    <p class="foot-a">取消关注</p>
+    <p class="foot-z" style="display: none;color: #02b300;">关注</p>
+    <p class="foot-b">上传方案</p>
+</div>
+
+
+<div class="xuanz">
+    <div class="xuanz-con">
+        <a class="con-dingz">定制</a>
+        <a class="con-chenp">成品</a>
+        <a class="conqux">取消</a>
+    </div>
+</div>
+
+
+</body>
+<script src="./public/js/jquery.min.js"></script>
+<script src="./public/js/var.js"></script>
+<script>
+    $('.foot-b').click(function(){
+        $('.xuanz').fadeIn(300);
+    });
+    $('.conqux').click(function(){
+        $('.xuanz').fadeOut(300);
+    });
+    $('.foot-a').click(function(){
+        $(this).next().show();
+        $(this).hide();
+    });
+    $('.foot-z').click(function(){
+        $(this).prev().show();
+        $(this).hide();
+    })
+</script>
+</html >

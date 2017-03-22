@@ -1,0 +1,134 @@
+header {
+  float: left;
+  width: 100%;
+  height: 4.17600668rem;
+  background: #ffffff;
+  padding: 0.48000077rem 0 0 0.48000077rem;
+}
+.taste-a {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2.40000384rem;
+}
+.gong {
+  float: left;
+  font-size: 0.57600092rem;
+  width: 100%;
+  color: #777777;
+}
+.gong-a {
+  float: left;
+  font-size: 0.76800123rem;
+  margin-top: 0.76800123rem;
+  width: 100%;
+  text-align: center;
+}
+.content-xQ {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 0.48000077rem;
+  background: #ffffff;
+  padding-bottom: 0.72000115rem;
+}
+.xq-hear {
+  float: left;
+  height: 3.84000614rem;
+  line-height: 1.96800315rem;
+  width: 100%;
+  padding: 0.96000154rem 0.48000077rem;
+}
+.touX {
+  float: left;
+  width: 1.92000307rem;
+  height: 1.92000307rem;
+  margin-right: 0.48000077rem;
+  border-radius: 50%;
+}
+.head-left {
+  float: left;
+  font-size: 0.76800123rem;
+}
+.xq-hear > time {
+  float: right;
+  font-size: 0.624001rem;
+  color: #4c4c4c;
+}
+.cont-img {
+  float: left;
+  width: 100%;
+}
+.cont-Bt {
+  float: left;
+  width: 100%;
+  margin: 0.96000154rem 0 1.4400023rem 0;
+  font-size: 0.76800123rem;
+  color: #1a1a1a;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 0.48000077rem;
+}
+.cont-content {
+  float: left;
+  width: 100%;
+  color: #444;
+  font-weight: 300;
+  font-size: 0.67200108rem;
+  padding: 0 0.48000077rem;
+}
+.base {
+  float: left;
+  width: 100%;
+  color: #999999;
+  padding: 1.4400023rem 0.48000077rem;
+}
+.base > span {
+  float: left;
+  font-size: 0.67200108rem;
+  margin-right: 0.96000154rem;
+}
+.base-lock {
+  float: right;
+  width: auto;
+  text-align: right;
+}
+.base-lock > span {
+  float: left;
+  height: 0.96000154rem;
+  width: 0.96000154rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -10.84801736rem -1.15200184rem;
+  background-size: 19.08003053rem;
+}
+.base-xin {
+  float: right;
+  width: auto;
+  margin-right: 0.96000154rem;
+  text-align: right;
+}
+.base-xin > span {
+  float: left;
+  height: 0.96000154rem;
+  width: 0.96000154rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -8.0640129rem -1.10400177rem;
+  background-size: 19.08003053rem;
+}
+.jiangli {
+  float: right;
+  color: #02b300;
+}
+.juj {
+  color: #b01722;
+}
+.jujtg {
+  float: left;
+  width: 100%;
+  padding: 0.96000154rem 0.48000077rem 0.72000115rem 0.48000077rem;
+  border-top: 1px solid #e6e6e6;
+  margin-top: -0.96000154rem;
+  color: #b01722;
+}
+.jujnr {
+  margin-top: 0.14400023rem;
+}

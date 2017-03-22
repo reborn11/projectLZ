@@ -1,0 +1,114 @@
+body {
+  background: #ffffff;
+}
+header {
+  float: left;
+  width: 100%;
+  padding: 1.39200223rem 0.48000077rem 0 0.48000077rem;
+  height: auto;
+  border-bottom: 1px solid #c4c4c4;
+  font-size: 0.76800123rem;
+}
+.head-lef {
+  float: left;
+}
+.head-img {
+  float: right;
+  width: 0.86400138rem;
+  height: 0.86400138rem;
+  margin-top: 0.04800008rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -5.42400868rem -0.04800008rem;
+  background-size: 19.08003053rem;
+}
+.head-cont {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 1.68000269rem;
+  margin: 1.39200223rem 0;
+}
+.chongz {
+  float: left;
+  width: 100%;
+  height: 2.35200376rem;
+  background: #02b300;
+  font-size: 0.81600131rem;
+  color: #ffffff;
+  border-radius: 0.19200031rem;
+  border: none;
+}
+.cont {
+  float: left;
+  width: 100%;
+  border-top: 0.48000077rem solid #f6f6f6;
+  height: auto;
+}
+.cont a {
+  float: left;
+  width: 100%;
+  height: 2.64000422rem;
+  line-height: 2.64000422rem;
+  padding: 0 0.48000077rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.cont-mede {
+  float: left;
+  font-size: 0.76800123rem;
+}
+.cont-rig {
+  float: right;
+  width: 0.57600092rem;
+  height: 0.57600092rem;
+  margin-top: 1.10400177rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -0.57600092rem -0.24000038rem;
+  background-size: 19.08003053rem;
+}
+.cont-se {
+  float: right;
+  font-size: 0.76800123rem;
+  color: #c91623;
+  margin-right: 0.48000077rem;
+}
+.tanc {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.cont-tanc {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 13.20002112rem;
+  height: 7.00801121rem;
+  border-radius: 0.19200031rem;
+  background: #ffffff;
+}
+.weix {
+  float: left;
+  margin-top: 0.81600131rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.76800123rem;
+}
+.weix span {
+  color: #02b300;
+}
+.qued {
+  float: left;
+  margin-top: 0.81600131rem;
+  margin-left: 4.32000691rem;
+  width: 4.32000691rem;
+  height: 1.68000269rem;
+  border-radius: 0.19200031rem;
+  font-size: 0.76800123rem;
+  color: #e6e6e6;
+  border: none;
+  background: #02b300;
+}

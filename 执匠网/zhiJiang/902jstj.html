@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定制</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="screen-orientation" content="portrait">
+
+    <link rel="stylesheet" href="./public/css/commo.css">
+    <link rel="stylesheet" href="./sty/jstj.css">
+
+</head>
+
+
+<body>
+<header>
+    <span class="head-lef"></span>
+    <p class="head-tuij">匠师推荐</p>
+</header>
+
+
+
+<div class="content">
+    <ul>
+        <li>
+            <img class="con-toux" src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/touxiang.jpg" alt="">
+            <div class="cont-neir">
+                <p class="nei-tir">王朝阳</p>
+                <p class="nei-trs">高级工艺美术师，中国玉石大师很厉害的</p>
+                <p class="chakan">查看详情 &nbsp></p>
+            </div>
+            <p class="dagou">
+                <span></span>
+            </p>
+        </li>
+        <li>
+            <img class="con-toux" src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/touxiang.jpg" alt="">
+            <div class="cont-neir">
+                <p class="nei-tir">王朝阳</p>
+                <p class="nei-trs">高级工艺美术师，中国玉石大师很厉害的</p>
+                <p class="chakan">查看详情 &nbsp></p>
+            </div>
+            <p class="dagou">
+                <span></span>
+            </p>
+        </li>
+        <li>
+            <img class="con-toux" src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/touxiang.jpg" alt="">
+            <div class="cont-neir">
+                <p class="nei-tir">王朝阳</p>
+                <p class="nei-trs">高级工艺美术师，中国玉石大师很厉害的</p>
+                <p class="chakan">查看详情 &nbsp></p>
+            </div>
+            <p class="dagou">
+                <span>
+
+                </span>
+            </p>
+        </li>
+        <li>
+            <img class="con-toux" src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/touxiang.jpg" alt="">
+            <div class="cont-neir">
+                <p class="nei-tir">王朝阳</p>
+                <p class="nei-trs">高级工艺美术师，中国玉石大师很厉害的</p>
+                <p class="chakan">查看详情 &nbsp></p>
+            </div>
+            <p class="dagou">
+                <span></span>
+            </p>
+        </li>
+    </ul>
+
+</div>
+
+
+
+
+
+<footer>
+    <p class="foot-a">取消</p>
+    <p class="foot-b">确认</p>
+</footer>
+
+</body>
+<script src="./public/js/jquery.min.js"></script>
+<script src="./public/js/var.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.dagou').click(function(){
+
+            $(this).toggleClass('dagoua');
+
+
+            var str= $('.dagoua').length;
+            if (str>3) {
+
+                $(this).removeClass('dagoua');
+
+            }
+        });
+    })
+</script>
+</html>

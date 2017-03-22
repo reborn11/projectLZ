@@ -1,0 +1,208 @@
+.content {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.content > li {
+  float: left;
+  width: 100%;
+  position: relative;
+  font-size: 0.76800123rem;
+  padding: 0 0.48000077rem;
+  height: 2.64000422rem;
+  line-height: 2.64000422rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+}
+.toux {
+  float: left;
+}
+.cont-rig {
+  float: right;
+  margin-top: 1.05600169rem;
+  height: 0.52800084rem;
+  width: 0.52800084rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -0.624001rem -0.19200031rem;
+  background-size: 19.08003053rem;
+}
+.con-tx {
+  float: right;
+  width: 1.4400023rem;
+  height: 1.4400023rem;
+  margin: 0.60000096rem 0.48000077rem 0 0;
+  border-radius: 50%;
+}
+.con-name {
+  float: right;
+  color: #999999;
+  margin-right: 0.48000077rem;
+}
+#byya {
+  margin-bottom: 0.48000077rem;
+}
+.teng-pa {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 0.76800123rem;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.gia-con {
+  float: left;
+  width: 100%;
+  padding: 0 0.48000077rem;
+  margin-top: 0.48000077rem;
+  height: 2.64000422rem;
+  font-size: 0.76800123rem;
+  border-top: 1px solid #e6e6e6;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #e6e6e6;
+}
+.fri-save {
+  float: left;
+  width: 17.04002726rem;
+  height: 2.40000384rem;
+  border: none;
+  background: #02b300;
+  font-size: 0.76800123rem;
+  color: #ffffff;
+  margin: 1.4400023rem 0.48000077rem 0 0.48000077rem;
+  border-radius: 0.19200031rem;
+}
+.gai-haed {
+  display: none;
+  position: fixed;
+  padding: 0 0.48000077rem;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  left: 0;
+  top: 0;
+}
+.head-qux {
+  position: absolute;
+  width: 17.04002726rem;
+  border-radius: 0.624001rem;
+  background: #ffffff;
+  bottom: 0.48000077rem;
+  font-size: 0.86400138rem;
+  text-align: center;
+  color: #007bff;
+  line-height: 2.73600438rem;
+  height: 2.73600438rem;
+}
+.haed-big {
+  position: absolute;
+  width: 17.04002726rem;
+  height: 4.32000691rem;
+  border-radius: 0.624001rem;
+  color: #000;
+  background: #ffffff;
+  bottom: 3.69600591rem;
+}
+.big-t {
+  float: left;
+  text-align: center;
+  font-size: 0.86400138rem;
+  line-height: 2.18400349rem;
+  width: 100%;
+  height: 50%;
+  border-bottom: 1px solid #e6e6e6;
+}
+.haed-sty {
+  position: absolute;
+  bottom: -8.40001344rem;
+  overflow: hidden;
+  width: 100%;
+  height: 8.40001344rem;
+}
+.addr {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.addr-lef {
+  float: left;
+  width: 17.28002765rem;
+  height: auto;
+  padding: 0 0.48000077rem;
+}
+.lef-titl {
+  float: left;
+  width: 100%;
+  font-weight: 700;
+  color: #9c9c9c;
+  margin-top: 0.81600131rem;
+}
+.lef-diqu {
+  width: 5.04000806rem;
+  margin-top: 0.48000077rem;
+  height: 1.92000307rem;
+  float: left;
+  border-radius: 0.19200031rem;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  text-align: center;
+  line-height: 1.92000307rem;
+}
+.dingzhisx {
+  float: left;
+  width: 100%;
+  margin-top: 0.86400138rem;
+  height: auto;
+}
+.dingzhisx {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.al {
+  border-top: 1px solid #e6e6e6;
+}
+.alb {
+  float: left;
+  width: 100%;
+  font-family: Arial;
+  color: #9c9c9c;
+  height: 1.4400023rem;
+  line-height: 1.4400023rem;
+  font-weight: 700;
+  padding: 0 0.48000077rem;
+}
+.dingzhisx li {
+  float: left;
+  width: 100%;
+  height: 2.16000346rem;
+  font-size: 0.76800123rem;
+  padding-left: 0.48000077rem;
+  background: #ffffff;
+  line-height: 2.16000346rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.addr-fine {
+  position: fixed;
+  width: 0.72000115rem;
+  height: 100%;
+  background: #ffffff;
+  top: 0;
+  right: 0;
+}
+.zimu {
+  font-family: Arial;
+  width: 100%;
+  margin-top: 3.84000614rem;
+  font-weight: 700;
+  height: auto;
+}
+.zimu > li {
+  font-weight: 700;
+  width: 100%;
+  color: #02b300;
+  float: left;
+  margin-top: 0.14400023rem;
+  text-align: center;
+}

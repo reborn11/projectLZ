@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+
+    <link rel="stylesheet" href="./public/css/commo.css">
+    <link rel="stylesheet" href="sty/xgdz.css">
+
+</head>
+<body>
+<ul class="conten">
+    <li>
+        <input type="text" class="con-name" placeholder="收货人姓名" maxlength="6">
+    </li>
+    <li>
+        <input type="text" class="lianxif" placeholder="联系方式" maxlength="11" onkeyup='this.value=this.value.replace(/\D/gi,"")'>
+    </li>
+    <li>
+        <input type="text" placeholder="邮政编码" maxlength="6" onkeyup='this.value=this.value.replace(/\D/gi,"")'>
+    </li>
+    <li>
+        <input type="text" id='city-picker' value="" placeholder="省/市/区"/>
+        <span class="you"></span>
+        <p class="xuanze">请选择</p>
+    </li>
+    <li style="border: none;" id="last">
+        <textarea name="" id="" placeholder="请填写详细地址，不少于5个字"></textarea>
+    </li>
+</ul>
+<footer>
+    <input class="baocun" type="button" value="保存" style="background: #c81822;float: left;height: 100%;border: none;width: 100%">
+</footer>
+
+<div class="tanc">
+    <p>请输入正确手机号！</p>
+</div>
+
+
+</body>
+<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+<script type="text/javascript" src="//g.alicdn.com/msui/sm/0.6.2/js/sm-city-picker.min.js" charset="utf-8"></script>
+<script>
+    $("#city-picker").cityPicker({
+        toolbarTemplate: '<header class="bar bar-nav">\
+    <button class="button button-link pull-right close-picker">确定</button>\
+    <h1 class="title">选择收货地址</h1>\
+    </header>'
+    });
+</script>
+<script src="public/js/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.baocun').click(function(){
+
+            var str=$('.con-name').val();
+
+            var str1=$('.lianxif').val();
+
+            if (str==''&&str1==''){
+                alert('111')
+            }
+
+            if (str==''){
+                $('.tanc>p').html('请输入您的姓名');
+                $('.tanc').fadeIn();
+                $('.tanc').delay(1000).fadeOut();
+
+            }
+
+            if (str1==''){
+                $('.tanc>p').html('您的手机号码不正确');
+                $('.tanc').fadeIn();
+                $('.tanc').delay(1000).fadeOut();
+
+            }
+        });
+    });
+</script>
+<!--<script src="./public/js/jquery.min.js"></script>-->
+<!--<script src="./public/js/var.js"></script>-->
+</html>

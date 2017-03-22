@@ -1,0 +1,57 @@
+header {
+  float: left;
+  width: 100%;
+  height: auto;
+  padding: 0.96000154rem 0.48000077rem 0 0.48000077rem;
+}
+.head-lrg {
+  float: left;
+  color: #333333;
+}
+.head-rig {
+  float: right;
+  color: #888888;
+}
+.head-img {
+  float: right;
+  margin: 0.09600015rem 0.14400023rem 0 0;
+  width: 0.86400138rem;
+  height: 0.86400138rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -5.42400868rem -0.04800008rem;
+  background-size: 19.08003053rem;
+}
+.head-cont {
+  float: left;
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+.cont-img {
+  margin: 0 auto 0.24000038rem auto;
+  width: 4.89600783rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -7.05601129rem -16.17602588rem;
+  background-size: 19.08003053rem;
+  height: 4.89600783rem;
+}
+.cont-fens {
+  font-size: 1.68000269rem;
+}
+.cont-fens > span {
+  font-size: 0.76800123rem;
+}
+.content {
+  float: left;
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #e6e6e6;
+  margin-top: 0.72000115rem;
+  padding: 0.81600131rem 0.48000077rem;
+}
+.qidai {
+  float: left;
+  margin-top: 1.68000269rem;
+  width: 100%;
+  color: #e5e5e5;
+  font-size: 3.60000576rem;
+  text-align: center;
+}

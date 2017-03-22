@@ -1,0 +1,99 @@
+.content {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-bottom: 3.12000499rem;
+}
+.con {
+  background: #ffffff;
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.48000077rem;
+}
+.con-big {
+  float: left;
+  width: 100%;
+  height: auto;
+  padding: 0 0.48000077rem 0.76800123rem 0.48000077rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.big-name {
+  font-size: 0.76800123rem;
+  margin-top: 0.76800123rem;
+  float: left;
+  width: 50%;
+}
+.big-nam {
+  text-align: right;
+}
+.address {
+  float: left;
+  margin-top: 0.76800123rem;
+  width: 100%;
+  font-weight: 300;
+  color: #555555;
+  height: auto;
+}
+.con-mor {
+  float: left;
+  width: 100%;
+  height: auto;
+  padding: 0.76800123rem 0.48000077rem 0.76800123rem 0.48000077rem;
+}
+.mor-l {
+  float: left;
+  width: 0.76800123rem;
+  height: 0.76800123rem;
+  margin: 0.09600015rem 0.48000077rem 0 0;
+  border-radius: 50%;
+  border: 1px solid #999999;
+}
+.mor-lef {
+  float: left;
+  font-size: 0.624001rem;
+}
+.mor-lef {
+  float: left;
+  height: auto;
+  width: 4.80000768rem;
+}
+.rig-rig {
+  float: right;
+  color: #555555;
+  font-size: 0.624001rem;
+  margin-left: 0.33600054rem;
+}
+.mor-shanc {
+  float: right;
+  width: 0.624001rem;
+  margin-top: 0.14400023rem;
+  height: 0.624001rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -9.21601475rem -2.32800372rem;
+  background-size: 19.08003053rem;
+}
+.mor-rig {
+  float: right;
+  width: auto;
+  height: auto;
+  margin-left: 1.10400177rem;
+}
+.mor-sh {
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -8.01601283rem -2.32800372rem;
+  background-size: 19.08003053rem;
+}
+.yuan > span {
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") #ff0000 -7.92001267rem -0.14400023rem;
+  background-size: 17.28002765rem;
+  border: none;
+}
+.yuan > p {
+  color: #c91623;
+}
+footer {
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.76800123rem;
+  line-height: 2.40000384rem;
+  background: #c91623;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的账户</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="screen-orientation" content="portrait">
+    <link rel="stylesheet" href="./public/css/commo.css">
+    <link rel="stylesheet" href="sty/account.css">
+</head>
+<body>
+
+<header>
+    <p class="head-lef">我的可用余额（￥）</p>
+    <span class="head-img"></span>
+    <p class="head-cont">￥20,000</p>
+    <input type="button" class="chongz" value="充值">
+</header>
+<ul class="cont">
+    <a style="border-top:1px solid #e6e6e6;">
+        <p class="cont-mede">我的奖励</p>
+        <span class="cont-rig"></span>
+        <p class="cont-se">累计奖励￥1355</p>
+    </a>
+    <a>
+        <p class="cont-mede">我的账单</p>
+        <span class="cont-rig"></span>
+    </a>
+    <a>
+        <p class="cont-mede">提现申请</p>
+        <span class="cont-rig"></span>
+    </a>
+    <a>
+        <p class="cont-mede">积分商城</p>
+        <span class="cont-rig"></span>
+    </a>
+</ul>
+
+
+<div class="tanc">
+    <div class="cont-tanc">
+        <p class="weix">请添加<span>微信：zxt232</span></p>
+        <p class="weix">我们的客服会帮您完成充值</p>
+        <input type="button" class="qued" value="确定">
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+<script src="./public/js/jquery.min.js"></script>
+<script src="./public/js/var.js"></script>
+<script>
+    $('.chongz').click(function(){
+        $('.tanc').fadeIn(300);
+    });
+    $('.qued').click(function(){
+        $('.tanc').fadeOut(300);
+    })
+</script>
+</html>

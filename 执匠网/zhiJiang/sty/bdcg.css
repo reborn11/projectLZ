@@ -1,0 +1,52 @@
+.dead h2 {
+  position: relative;
+  margin: 1.68000269rem auto 1.4400023rem auto;
+  width: 3.60000576rem;
+  border-radius: 50%;
+  height: 3.60000576rem;
+  background: #02b300;
+}
+.de-img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 1.92000307rem;
+  height: 1.92000307rem;
+  background: url(http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png) 28.32004531rem -0.60000096rem;
+  background-size: 52.70408433rem;
+}
+.dead {
+  text-align: center;
+}
+.dead h2 img {
+  float: left;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.cheng {
+  font-size: 0.76800123rem;
+  color: #4c4c4c;
+}
+.tiao {
+  font-size: 0.67200108rem;
+  color: #c4c4c4;
+  margin-top: 0.48000077rem;
+}
+.submit {
+  float: left;
+  width: 17.04002726rem;
+  height: 2.16000346rem;
+  border-radius: 0.19200031rem;
+  background: #02b300;
+  color: #ffffff;
+  margin: 1.4400023rem 0.48000077rem 0 0.48000077rem;
+  font-size: 0.76800123rem;
+  border: none;
+}
+.nubmer {
+  color: #c2132d;
+}

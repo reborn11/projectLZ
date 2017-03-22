@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定制</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="screen-orientation" content="portrait">
+
+    <script src="./public/js/var.js"></script>
+    <link rel="stylesheet" href="./public/css/commo.css">
+    <link rel="stylesheet" href="sty/bdsj.css">
+
+</head>
+<body>
+<form action="">
+    <h2>
+        <img src="./images/touxiang.jpg" alt="">
+    </h2>
+    <div class="content">
+        <div class="contsj" >
+            <span></span>
+            <input class="shoujiha ujiha" type="number" placeholder="请输入手机号" maxlength="10" onkeyup="this.value=this.value.replace(/\D/g,'')">
+            <input id="btn" type="button" class="yanzm" value="获取验证码">
+        </div>
+        <div class="mima">
+            <span></span>
+            <input class="shoujiha" type="text" placeholder="请输入验证码" maxlength="6" onkeyup="this.value=this.value.replace(/\D/g,'')">
+        </div>
+    </div>
+    <div class="con-ma">
+        <div class="mima ima">
+            <span></span>
+            <p>推荐人：</p>
+            <input class="shoujiha" type="text" placeholder="执匠（点击输入推荐码）">
+        </div>
+    </div>
+    <input class="submit" type="button" value="确定绑定">
+</form>
+
+<div class="tanc">
+    <p>请输入正确手机号！</p>
+</div>
+
+
+
+</body>
+<script src="./public/js/jquery.min.js"></script>
+<script>
+    $('.ujiha').bind('blur',function(){
+        var phone = $(".ujiha").val();
+        if(phone && /^1[3|4|5|8]\d{9}$/.test(phone)){
+            var wait=60;
+            function time(o) {
+                if (wait == 0) {
+                    o.removeAttribute("disabled");
+                    o.value="免费获取验证码";
+                    wait = 60;
+                } else {
+                    o.setAttribute("disabled", true);
+                    o.value="重新发送(" + wait + ")";
+                    wait--;
+                    setTimeout(function() {
+                                time(o)
+                            },
+                            1000)
+                }
+            }
+            document.getElementById("btn").onclick=function(){time(this);};
+        } else{
+            $('.tanc').fadeIn();
+            $('.tanc').delay(1000).fadeOut();
+        }
+    });
+</script>
+</html>

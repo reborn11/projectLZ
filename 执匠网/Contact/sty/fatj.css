@@ -1,0 +1,164 @@
+header {
+  float: left;
+  height: 2.40000384rem;
+  width: 100%;
+  padding: 0 0.48000077rem;
+  border-bottom: 1px solid #e6e6e6;
+  line-height: 2.40000384rem;
+}
+.head-chep {
+  float: left;
+  font-size: 0.76800123rem;
+}
+.head-titme {
+  float: right;
+  color: #555;
+  font-weight: 300;
+}
+.content {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.cont-fangan {
+  float: left;
+  width: 100%;
+  background: #ffffff;
+  padding: 0 0.48000077rem;
+  margin-bottom: 0.48000077rem;
+  height: auto;
+}
+.fam {
+  float: left;
+  color: #02b300;
+  font-size: 0.76800123rem;
+  border-left: 0.09600015rem solid #02b300;
+  padding: 0 0 0 0.48000077rem;
+  margin-top: 0.96000154rem;
+  width: 100%;
+  height: 0.81600131rem;
+  line-height: 0.81600131rem;
+}
+.fam-title {
+  float: left;
+  width: 100%;
+  height: 2.16000346rem;
+  padding-left: 0.48000077rem;
+  margin: 0.96000154rem 0;
+  border: 1px solid #cccccc;
+}
+.fan-tianj {
+  position: relative;
+  float: left;
+  width: 5.28000845rem;
+  height: 5.28000845rem;
+  border: 1px solid #cccccc;
+}
+.con-bit {
+  float: left;
+  width: 100%;
+  margin-top: 0.96000154rem;
+  height: 5.28000845rem;
+}
+.bit-img,
+.bit-imga {
+  float: left;
+  position: relative;
+  margin-right: 0.43200069rem;
+  width: 5.28000845rem;
+  height: 5.28000845rem;
+}
+.bit-img > img,
+.bit-imga > img {
+  float: left;
+  width: 5.28000845rem;
+  height: 5.28000845rem;
+}
+.bit-img > span,
+.img-remova {
+  position: absolute;
+  right: 0.24000038rem;
+  top: 0.24000038rem;
+  width: 0.86400138rem;
+  height: 0.86400138rem;
+  border-radius: 50%;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon1.png") #000000 -8.54401367rem 0.14400023rem;
+  background-size: 12.0000192rem;
+  opacity: .6;
+}
+.img-remova {
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon1.png") #000000 -9.26401482rem 0.14400023rem;
+  background-size: 12.0000192rem;
+  opacity: 1;
+}
+.imga {
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon1.png") #02b300 -9.26401482rem 0.14400023rem;
+  background-size: 12.0000192rem;
+}
+.tianj-apz {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 3;
+}
+.paz-img {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 2.30400369rem;
+  height: 2.30400369rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon1.png") 0 -2.40000384rem;
+  background-size: 12.0000192rem;
+}
+.biaoq {
+  float: left;
+  width: 100%;
+  margin-top: 0.14400023rem;
+  height: auto;
+  font-size: 1.77600284rem;
+  text-align: center;
+}
+.bia {
+  display: inline-block;
+  width: 3.02400484rem;
+  font-size: 0.67200108rem;
+  height: 1.4400023rem;
+  border: 1px solid #444;
+  line-height: 1.4400023rem;
+  text-align: center;
+}
+.back-color {
+  color: #ffffff;
+  background: #02b300;
+  border: none;
+}
+input,
+textarea {
+  font-size: 0.67200108rem;
+  border-radius: 0;
+}
+.cont-fangan > textarea {
+  float: left;
+  width: 100%;
+  height: 5.56800891rem;
+  border: 1px solid #cccccc;
+  margin: 0.96000154rem 0;
+  padding: 0.48000077rem 0.48000077rem;
+  border-radius: 0;
+  resize: none;
+  outline: none;
+}
+.am-tit {
+  background: #c81822;
+  font-size: 0.76800123rem;
+  color: #FFFFFF;
+  border: none;
+  margin-top: 1.68000269rem;
+  border-radius: 0;
+}

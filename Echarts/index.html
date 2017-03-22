@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/01.css"/>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+		<script type="text/javascript" src="js/echarts.js" ></script>
+		<script type="text/javascript" src="js/jquery.fullPage.js" ></script>
+		<script src="http://echarts.baidu.com/asset/map/js/china.js"></script>
+	</head>
+	<body>
+		
+		<ul id="menu" style="background: #fff;position: fixed;top: 0;left: 0;z-index: 10000;display:none;">
+			<li data-menuanchor="page1"><a href="#page1">第一屏</a></li>
+			<li data-menuanchor="page2"><a href="#page2">第二屏</a></li>
+			<li data-menuanchor="page3"><a href="#page3">第三屏</a></li>
+			<li data-menuanchor="page4"><a href="#page4">第四屏</a></li>
+			<li data-menuanchor="page5"><a href="#page5">第5屏</a></li>
+			<li data-menuanchor="page6"><a href="#page6">第6屏</a></li>
+			<li data-menuanchor="page7"><a href="#page7">第7屏</a></li>
+			<li data-menuanchor="page8"><a href="#page8">第8屏</a></li>
+			<li data-menuanchor="page9"><a href="#page9">第9屏</a></li>
+		</ul>
+		
+		
+		<div id="box">
+			<div class="section section1">
+				<div class="secLeft" style="float: right;">
+					<div id="main1" style="width:450px;height:350px;float:right;"></div>
+					<h2>今日到店年龄比例</h2>
+					<ul>
+						<li>64%</li>
+						<li>36%</li>
+					</ul>
+					<div class="clear"></div>
+					<p><span>女：164</span><span>男：56</span></p>
+				</div>
+				<div class="secRight">
+					<h1>密鹰智客时时客流统计</h1>
+					<div id="main" style="width:800px;height:350px;"></div>
+					<h2>店铺消费群体</h2>
+					<ul>
+						<li>90后</li>
+						<li>轻时尚</li>
+						<li>兴趣多</li>
+						<li>从众</li>
+						<li>购物狂</li>
+						<li>自助服务</li>
+						<li>小资</li>
+					</ul>
+				</div>
+			</div>
+			<div class="section section2">
+				<h1>菜准智能科技</h1>
+				<h3>LEGENDSMART</h3>
+				<h2>￥230.275.665<span>交易额</span></h2>
+				<div class="lin"></div>
+				<h4><span>零售交易额</span>1.680.446.334</h4>
+				<h4><span>零售交易额占比</span>50.02%</h4>
+			</div>
+			<div class="section section3">
+				<h1>店铺签到情况</h1>
+				<div class="secleft fl">
+					<h2>店铺每日考勤数据</h2>
+					<p>严重迟到：1人</p>
+					<p>早退：1人</p>
+					<p>旷工：0人</p>
+					<p>休息：0人</p>
+					<p id='daliy' style="width: 230px;height: 270px;"></p>
+				</div>
+				<div class="seccenter fl">
+					<h2>店铺月度考勤统计数据</h2>
+					<p>考勤组：仓库1组</p>
+					<p>月份：2016年10月</p>
+					<p>
+						组成员：张一山，周浩，王<br />
+						松，黄志宇，胡家<br />
+						明，张涛，陈城
+					</p>
+					<p>平均出勤率：86%</p>
+					<p>迟到：8次，共58分钟</p>
+					<p>严重迟到：4次，共95分钟</p>
+					<p>早退：0次</p>
+					<p>缺卡：3次</p>
+					<p>旷工：0次</p>
+				</div>
+				<div class="secright fl">
+					<h2>店铺一周考勤统计数据：</h2>
+					<p>平均出勤率：88.7%</p>
+					<p id='week' style="width: 420px;height: 400px;"></p>
+				</div>
+			</div>
+			<div class="section section4">
+				<h1>密鹰巡店店铺实时监察</h1>
+				<h2 class="fl">在线屏幕数量<span>208</span></h2>
+				<h2 class="fl">离线屏幕数量<span>16</span></h2>
+				<div class="clear"></div>
+				<div class="block fl">
+					<div></div>
+					<p>屏幕1</p>
+				</div>
+				<div class="block block1 fl">
+					<div></div>
+					<p>屏幕2</p>
+				</div>
+				<div class="block fl">
+					<div></div>
+					<p>屏幕3</p>
+				</div>
+				<div class="block fl">
+					<div></div>
+					<p>屏幕4</p>
+				</div>
+				<div class="block block1 fl">
+					<div></div>
+					<p>屏幕5</p>
+				</div>
+				<div class="block fl">
+					<div></div>
+					<p>屏幕6</p>
+				</div>
+			</div>
+			<div class="section section5">
+				<h1>企业概况</h1>
+				
+				<div class="secleft fl">
+					<p><span>1835</span>店铺数量</p>
+					<p><span>38780</span>企业人数</p>
+					<p><span>14678</span>企业人数</p>
+					<p><span>35%</span>企业管理人员占比</p>
+				</div>
+				<div id='map' class="fl" style="width: 700px;height: 500px;"></div>
+			</div>
+			<div class="section section6">
+				<h1>报修</h1>
+				<h2>店铺报修统计数据</h2>
+				<div id="all" class="secleft fl" style="width: 600px;height: 450px;"></div>
+				<div class="secright fl">
+					<div id='rate'  style="width: 450px;height: 450px;"></div>
+					<h3>维修速率：平均维修时速18小时/次</h3>
+				</div>
+			</div>
+			<!--<div class="section section7">
+				<h1>光照设备情况</h1>
+				<h2>在线灯具数量<span>200</span></h2>
+				<h2>不在线灯具数量<span>10</span></h2>
+				<h2>设备异常数量<span>5</span></h2>
+			</div>
+			<div class="section section8">
+				<h1>会场热区分布图</h1>
+			</div>
+			<div class="section section9">
+				<h1>12.12现场签到</h1>
+				<div class="secleft fl">
+					<h2>"208"</h2>
+					<p>会场签到人数</p>
+				</div>
+				<div class="secright fl">
+					<div class="pic">
+						<img src="img/er.png" width="370px"/>
+					</div>
+					<p>扫一扫，现场签到</p>
+				</div>
+			</div>-->
+		</div>
+	</body>
+	<script type="text/javascript" src="js/index.js" ></script>
+	<script type="text/javascript">
+		(function(){
+			$("#box").fullpage({
+				sectionsColor: ['#262829', '#262829', '#262829', '#262829','#262829', '#262829'],
+				anchors: ['page1', 'page2', 'page3', 'page4','page5', 'page6'],
+				menu: '#menu'
+			});
+		})();
+	</script>
+</html>

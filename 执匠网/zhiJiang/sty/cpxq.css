@@ -1,0 +1,244 @@
+.head {
+  float: left;
+  width: 100%;
+  height: 10.08001613rem;
+}
+.swiper-container {
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+.er-sli > img {
+  width: 100%;
+  height: 100%;
+}
+.swiper-pagination {
+  color: #ffffff;
+}
+.require {
+  background: #ffffff;
+  float: left;
+  width: 100%;
+  padding: 0 0.48000077rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+.con-head {
+  position: relative;
+  width: 17.04002726rem;
+  height: 3.21600515rem;
+  border-bottom: 1px solid #c6c6c6;
+  line-height: 3.69600591rem;
+}
+.con-head:after {
+  position: absolute;
+  left: 0;
+  top: 1.4400023rem;
+  content: '';
+  height: 0.76800123rem;
+  width: 0.09600015rem;
+  background: #02b300;
+}
+.con-head > p {
+  margin-left: 0.48000077rem;
+  font-size: 0.76800123rem;
+  color: #02b300;
+}
+.con-deta {
+  width: 100%;
+  float: left;
+  height: auto;
+}
+.deta-data {
+  float: left;
+  width: 100%;
+  height: auto;
+  padding: 0.96000154rem 0 1.34400215rem 0;
+  line-height: 1.4400023rem;
+}
+.touX {
+  float: left;
+  width: 1.4400023rem;
+  height: 1.4400023rem;
+  border-radius: 50%;
+  background: url(http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png) -4.60800737rem -18.0000288rem;
+  background-size: 19.08003053rem;
+  margin-right: 0.48000077rem;
+}
+.diZ {
+  float: right;
+  margin-top: 0.38400061rem;
+  width: 0.624001rem;
+  height: 0.624001rem;
+  margin-left: 0.624001rem;
+  background: url(http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png) -0.52800084rem -1.15200184rem;
+  background-size: 19.08003053rem;
+}
+.Dh {
+  font-size: 0.57600092rem;
+  float: right;
+}
+.jianJie {
+  width: 100%;
+  margin-top: 0.19200031rem;
+  float: left;
+}
+.data-name {
+  font-size: 0.67200108rem;
+}
+.jianJie li {
+  float: left;
+  color: #666;
+  margin-top: 0.67200108rem;
+  font-size: 0.67200108rem;
+  width: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#perple {
+  width: 100%;
+  margin-bottom: 0.67200108rem;
+}
+.img-line {
+  font-size: 1.20000192rem;
+  float: left;
+  margin-bottom: 0.76800123rem;
+}
+.img-line > p {
+  font-size: 0.67200108rem;
+  color: #666;
+}
+.img-line > img {
+  display: inline-block;
+  width: 5.42400868rem;
+}
+.qiu {
+  font-size: 0.76800123rem;
+}
+.qiua {
+  font-size: 0.67200108rem;
+  line-height: 1.08000173rem;
+  color: #666;
+}
+.quire {
+  margin-top: 0.48000077rem;
+}
+.uqi {
+  margin: 0.96000154rem 0 0.48000077rem;
+}
+.quire-Details {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.Details-dear {
+  font-size: 0.76800123rem;
+  margin: 0.86400138rem 0;
+}
+.dear-img {
+  float: left;
+  width: 100%;
+  height: 4.80000768rem;
+}
+.dear-img > img {
+  float: left;
+  width: 4.80000768rem;
+  height: 4.80000768rem;
+  margin-right: 0.48000077rem;
+}
+.dear-img li {
+  float: left;
+  width: 8.40001344rem;
+  font-weight: 300;
+  color: #666;
+  margin-top: 0.67200108rem;
+}
+.xuqiu {
+  float: left;
+  width: 100%;
+}
+.xuqiu-a {
+  padding-bottom: 1.29600207rem;
+}
+.fulfill {
+  margin-top: 0.48000077rem;
+  background: #ffffff;
+  float: left;
+  padding: 0 0.48000077rem 3.36000538rem 0.48000077rem;
+}
+.body-content {
+  float: left;
+  height: auto;
+  width: 100%;
+  padding: 0 0 0.96000154rem 0;
+}
+.dear-nten {
+  float: left;
+  height: 1.4400023rem;
+  width: 4.80000768rem;
+}
+.dear-nten > h4 {
+  width: 0.12000019rem;
+  border-radius: 50%;
+  margin-left: 0.76800123rem;
+  height: 0.12000019rem;
+  background: #02b300;
+}
+.dear-nten > time {
+  float: left;
+  font-size: 0.57600092rem;
+  color: #02b300;
+  width: 100%;
+  padding: 0.21600035rem 0;
+}
+.dear-nten > h3 {
+  float: left;
+  width: 0.12000019rem;
+  border-radius: 50%;
+  margin-left: 0.76800123rem;
+  height: 0.12000019rem;
+  background: #02b300;
+}
+.jieSao {
+  float: right;
+  width: 16.22402596rem;
+  height: auto;
+  border-left: 0.02400004rem solid #c6c6c6;
+}
+.jieSao-content {
+  float: right;
+  width: 15.3120245rem;
+  font-size: 0.81600131rem;
+  height: auto;
+  padding: 0 0 0.96000154rem 0.28800046rem;
+}
+.jies-img {
+  float: right;
+  width: 14.88002381rem;
+}
+.jies-img > img {
+  height: 4.80000768rem;
+  width: 4.80000768rem;
+}
+.ieSao-co {
+  font-size: 0.76800123rem;
+  margin: 0.91200146rem 0 0.43200069rem;
+}
+.eSao-conte {
+  float: right;
+  width: 15.3120245rem;
+  font-weight: 300;
+  color: #666;
+  height: auto;
+  padding: 0 0 0.24000038rem 0.28800046rem;
+}
+footer > a {
+  float: left;
+  width: 100%;
+  height: 2.30400369rem;
+  background: #c81822;
+  text-align: center;
+  font-size: 0.76800123rem;
+  line-height: 2.40000384rem;
+  color: #ffffff;
+}

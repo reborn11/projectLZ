@@ -1,0 +1,219 @@
+* {
+				margin: 0;
+				padding: 0;
+				font-family: "微软雅黑";
+				box-sizing: border-box;
+			}
+			
+			body {
+				font-size: 16px;
+			}
+			.fr{
+				float: right;
+			}
+			li {
+				list-style: none;
+			}
+			
+			a {
+				text-decoration: none;
+			}
+			
+			div.top {
+				width: 100%;
+				height: 50px;
+				background: #000;
+				line-height: 50px;
+			}
+			
+			.fir {
+				color: #fff;
+				font-size: 20px;
+				margin-right: 20px;
+			}
+			
+			.divnav {
+				width: 100%;
+				background: #F8F8F8;
+				position: fixed;
+				top: 0;
+				left: 0;
+				z-index: 100;
+			}
+			
+			.ulfir {
+				margin-top: 0;
+				z-index: 999;
+			}
+			
+			a:focus,
+			a:hover {
+				color: white;
+				text-decoration: none;
+			}
+			
+			ul>li>a.act {
+				border-bottom: 2px solid deepskyblue;
+			}
+			
+			a {
+				color: white;
+			}
+			
+			.container .more {
+				color: #777;
+				margin-top: 10px;
+			}
+			
+			.container .moresub {
+				margin-top: 50px;
+				width: 100%;
+			}
+			
+			.sppic {
+				margin-right: 5px;
+			}
+			
+			.big {
+				width: 100%;
+				margin-top: 50px;
+			}
+			
+			.big h1 {
+				margin-top: -20px;
+				padding-left: 10px;
+				color: #666666;
+			}
+			
+			.big p {
+				padding-left: 10px;
+				color: #666666;
+			}
+			
+			.con {
+				width: 100%;
+			}
+			
+			.cen {
+				color: #666666;
+			}
+			.rightSma{
+				background: #EEEEEE;
+			}
+			.font2 {
+				font-size: 17px;
+			}
+			
+			.spic {
+				padding-right: 0;
+				padding-left: 0;
+			}
+			
+			.conp {
+				padding-bottom: 20px;
+			}
+			
+			.row {
+				margin-bottom: 15px;
+			}
+			/*banner开始*/
+			
+			.carousel {
+				height: 2rem;
+				overflow: hidden;
+			}
+			/*banner结束*/
+			/*but开始*/
+			.nav>li>a:hover {
+				background: white;
+				border: 1px solid orangered;
+				color: orangered;
+			}
+			
+			.nav-tabs>li>a {
+				margin: 0;
+				color: black;
+				margin-bottom: 1px;
+			}
+			/*but结束*/
+			/*cover开始*/
+			.carousel-indicators .active {
+    width: 18px;
+    height:3px;
+    margin: 0;
+    background-color: #fff;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 18px;
+    margin: 0;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    height: 3px;
+}
+			.nav-tabs>li {
+				width: 20%;
+				text-align: center;
+			}
+			
+			.nav-tabs>li.active>a,
+			.nav-tabs>li.active>a:focus,
+			.nav-tabs>li.active>a:hover {
+				color: #FFFFFF;
+				background-color: orangered;
+			}
+			
+			.nav-tabs>li>a {
+				/*margin-right: 2px;*/
+				line-height: 1.42857143;
+				border: 1px solid #EEEEEE;
+				border-radius: 0;
+			}
+			/*a {
+			    color: black;
+			    text-decoration: none;
+			}*/
+			
+			.nav-tabs {
+				border-bottom: none;
+			}
+			/*cover结束*/
+			
+			.butsCon {
+				margin: 30px 0;
+			}
+			
+			.butsTime {
+				width: 80%;
+				margin-top: 20px;
+			}
+			
+			.butsTime ul li {
+				width: 10%;
+				display: inline-block;
+			}
+			.img2{
+				margin: 30px 0;
+			}
+			#rightSma h5{
+				font-size: 20px;
+				font-weight: bold;
+			}
+			
+			footer {
+				background: #EEEEEE;
+				padding: 20px 0;
+				line-height: 2;
+				color: #555;
+			}
+			
+			footer span {
+				padding: 0 5px;
+			}
+			
+			footer p {
+				font-size: 13px;
+			}

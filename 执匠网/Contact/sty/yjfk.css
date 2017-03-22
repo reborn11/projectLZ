@@ -1,0 +1,24 @@
+textarea {
+  float: left;
+  width: 17.04002726rem;
+  margin: 0 0.48000077rem 1.4400023rem 0.48000077rem;
+  height: 7.72801236rem;
+  resize: none;
+  font-size: 0.67200108rem;
+  padding: 0.96000154rem 0.48000077rem;
+  border: none;
+}
+input {
+  width: 17.04002726rem;
+  float: left;
+  height: 2.35200376rem;
+  background: #02b300;
+  color: #ffffff;
+  font-size: 0.81600131rem;
+  border: none;
+  border-radius: 0.19200031rem;
+  margin: 0 0.48000077rem;
+}
+.tongj {
+  width: 100%;
+}

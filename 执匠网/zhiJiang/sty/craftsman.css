@@ -1,0 +1,297 @@
+header {
+  float: left;
+  height: 4.32000691rem;
+  width: 100%;
+  padding: 0.96000154rem 0.48000077rem;
+  background: #ffffff;
+}
+header img {
+  float: left;
+  height: 2.40000384rem;
+  width: 2.40000384rem;
+  border-radius: 50%;
+}
+.header-name {
+  float: left;
+  margin-left: 0.48000077rem;
+  width: 8.16001306rem;
+  height: 100%;
+}
+.header-name > h4 {
+  font-size: 0.76800123rem;
+  font-weight: 400;
+}
+.ader-na,
+.ader-naa {
+  float: left;
+  font-size: 0.72000115rem;
+  font-weight: 300;
+  margin-top: 0.19200031rem;
+}
+.ader-naa {
+  margin-left: 0.96000154rem;
+}
+.bo-da {
+  float: right;
+  width: 3.36000538rem;
+  height: 1.08000173rem;
+  padding: 0 0.48000077rem;
+  font-size: 0.624001rem;
+  line-height: 1.1280018rem;
+  background: #02b300;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 1.05600169rem;
+  border-radius: 0.19200031rem;
+}
+.content {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.content-introduce {
+  float: left;
+  width: 100%;
+  height: 1.92000307rem;
+  padding: 0 0.48000077rem;
+  line-height: 1.92000307rem;
+}
+.content-introduce > h4 {
+  float: left;
+  font-weight: 400;
+  font-size: 0.76800123rem;
+}
+.content-introduce > p {
+  float: right;
+  font-size: 0.67200108rem;
+  font-weight: 300;
+}
+.introduce {
+  float: left;
+  width: 100%;
+  height: auto;
+  font-size: 0.67200108rem;
+  background: #ffffff;
+  line-height: 1.20000192rem;
+  padding: 1.4400023rem 0 0.48000077rem 0;
+}
+.oduce {
+  font-weight: 300;
+  padding: 1.4400023rem 0.48000077rem;
+}
+.main-point {
+  float: left;
+  width: 18.0000288rem;
+  height: auto;
+}
+.point-content {
+  float: left;
+  background: #ffffff;
+  margin-bottom: 0.96000154rem;
+  height: 4.80000768rem;
+  width: 100%;
+}
+.point-img {
+  float: left;
+  position: relative;
+  height: 4.80000768rem;
+  width: 9.0000144rem;
+}
+.nt-img {
+  position: absolute;
+  height: 4.80000768rem;
+  width: 9.0000144rem;
+  float: left;
+}
+.nt-imga {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2.11200338rem;
+  width: 2.11200338rem;
+}
+.content-right {
+  float: right;
+  padding: 0 0.48000077rem;
+  width: 9.0000144rem;
+  height: 4.80000768rem;
+}
+.content-right > h2 {
+  float: left;
+  font-size: 0.76800123rem;
+  margin-top: 0.14400023rem;
+  width: 100%;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content-right > p {
+  float: left;
+  margin-top: 0.48000077rem;
+  font-size: 0.67200108rem;
+}
+.ontent-rig {
+  float: left;
+  margin-top: 0.624001rem;
+  width: 100%;
+}
+.ontent-rig > p {
+  float: left;
+  font-size: 0.67200108rem;
+}
+.ontent-rig > span {
+  float: right;
+  font-size: 0.67200108rem;
+}
+.ent-rig {
+  color: #02b300;
+}
+.ontent-ri {
+  color: #999;
+}
+.Bigger {
+  float: left;
+  margin-left: 4.0000064rem;
+  width: 9.60001536rem;
+  height: 1.4400023rem;
+  border-radius: 2px;
+  border: 1px solid #02b300;
+  color: #02b300;
+  background: #ffffff;
+  font-size: 0.76800123rem;
+  margin-bottom: 3.84000614rem;
+}
+.last {
+  float: left;
+  padding: 0.96000154rem 0.24000038rem 1.20000192rem 0.24000038rem;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.last-img {
+  margin: 0.48000077rem 0.24000038rem 0 0.24000038rem;
+  float: left;
+  width: 8.28001325rem;
+  height: 8.28001325rem;
+  position: relative;
+}
+.img-a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.last-img > p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.48800238rem;
+  background: #000;
+  color: #fff;
+  font-size: 0.72000115rem;
+  text-align: center;
+  line-height: 1.48800238rem;
+  opacity: .4;
+  z-index: 999;
+}
+.achie {
+  display: none;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+.achie-content {
+  float: left;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #ffffff;
+}
+.content-derad {
+  float: left;
+  width: 100%;
+  padding: 0 0.48000077rem;
+  line-height: 1.96800315rem;
+  height: 1.92000307rem;
+  border-bottom: 0.02400004rem solid #c6c6c6;
+}
+.content-derad > h4 {
+  float: left;
+  font-size: 0.76800123rem;
+  font-weight: 400;
+}
+.content-derad > p {
+  float: right;
+  font-size: 0.76800123rem;
+  color: #c41732;
+  font-weight: 400;
+}
+.body-content {
+  float: left;
+  overflow: auto;
+  height: 22.7rem;
+  width: 100%;
+  padding: 0 0.48000077rem 0.96000154rem 0.48000077rem;
+}
+.dear-nten {
+  float: left;
+  height: 1.4400023rem;
+  width: 4.80000768rem;
+}
+.dear-nten > h4 {
+  width: 0.12000019rem;
+  border-radius: 50%;
+  margin-left: 1.10400177rem;
+  height: 0.12000019rem;
+  background: #02b300;
+}
+.dear-nten > time {
+  float: left;
+  font-size: 0.57600092rem;
+  color: #02b300;
+  width: 100%;
+  padding: 0.21600035rem 0;
+}
+.dear-nten > h3 {
+  float: left;
+  width: 0.12000019rem;
+  border-radius: 50%;
+  margin-left: 1.10400177rem;
+  height: 0.12000019rem;
+  background: #02b300;
+}
+.jieSao {
+  float: right;
+  width: 15.88802542rem;
+  height: auto;
+  border-left: 0.02400004rem solid #c6c6c6;
+}
+.jieSao-content {
+  float: right;
+  width: 14.83202373rem;
+  border: 0.02400004rem solid #c6c6c6;
+  font-size: 0.624001rem;
+  height: auto;
+  padding: 0.36000058rem;
+}
+.yualk {
+  float: left;
+  width: 0.72000115rem;
+  margin-right: 0.33600054rem;
+  height: 0.72000115rem;
+  margin-top: 0.18000029rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -8.83201413rem -0.24000038rem;
+  background-size: 19.08003053rem;
+}

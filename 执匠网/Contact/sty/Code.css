@@ -1,0 +1,81 @@
+.content {
+  float: left;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.con-head {
+  width: 10.17601628rem;
+  height: 4.94400791rem;
+  margin: 2.88000461rem auto 0 auto;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -9.84001574rem -21.9360351rem;
+  background-size: 19.08003053rem;
+}
+.head-con {
+  font-size: 0.76800123rem;
+  color: #666;
+  margin-top: 0.72000115rem;
+}
+.head-chi {
+  position: relative;
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 0.76800123rem;
+  color: #666666;
+  padding: 1.4400023rem 0;
+  margin: 1.68000269rem 0;
+}
+.chi-a {
+  top: 0;
+}
+.chi-b {
+  bottom: 0;
+}
+.chi {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 0.24000038rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/xiaodian_07.gif") repeat-x;
+  background-size: 0.81600131rem;
+}
+.head-chi {
+  width: 100%;
+}
+.xqt {
+  font-size: 0.96000154rem;
+  margin: 0.09600015rem 0;
+  color: #c91623;
+}
+.fenxiang {
+  color: #666666;
+  font-size: 0.76800123rem;
+}
+.foole {
+  margin: 0 auto;
+  height: 2.40000384rem;
+  width: 13.05602089rem;
+  margin-top: 0.96000154rem;
+}
+.weix {
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -10.27201644rem -5.3760086rem;
+}
+.Circle {
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -13.29602127rem -5.3760086rem;
+}
+.weibo {
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -16.36802619rem -5.3760086rem;
+}
+.ircl {
+  margin-left: 2.88000461rem;
+}
+.weixin,
+.Circle,
+.weibo {
+  float: left;
+  width: 2.40000384rem;
+  height: 2.40000384rem;
+  border-radius: 50%;
+  background-size: 19.08003053rem;
+}

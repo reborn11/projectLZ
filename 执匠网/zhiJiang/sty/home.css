@@ -1,0 +1,248 @@
+.head {
+  float: left;
+  width: 100%;
+  height: 10.08001613rem;
+}
+.swiper-container {
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+.er-sli > img {
+  width: 100%;
+  height: 100%;
+}
+.content {
+  float: left;
+  width: 100%;
+}
+.content-top {
+  text-align: center;
+  height: 3.02400484rem;
+  line-height: 2.97600476rem;
+  width: 100%;
+  font-size: 0.86400138rem;
+  background: #ffffff;
+}
+.content-top > span {
+  color: #d20e24;
+}
+.Check {
+  float: left;
+  height: 8.16001306rem;
+  width: 100%;
+}
+.Check-head {
+  float: left;
+  width: 100%;
+  height: 1.82400292rem;
+  padding: 0 0.48000077rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+.Check-head p {
+  margin-top: 0.43200069rem;
+  float: left;
+  padding-top: 0.09600015rem;
+  width: 4.5600073rem;
+  font-size: 0.76800123rem;
+  text-align: center;
+  border-left: 6px solid #02b300;
+  color: #02b300;
+}
+.Check-head a {
+  margin-top: 0.60000096rem;
+  float: right;
+  font-size: 0.624001rem;
+  text-decoration: none;
+  color: #666;
+}
+.Check-tent {
+  margin-top: 0.43200069rem;
+  background: #ffffff;
+  float: left;
+  width: 100%;
+  height: 6.0000096rem;
+}
+.tent-next {
+  float: left;
+  width: 70.5601129rem;
+  height: 100%;
+}
+.content-img {
+  float: left;
+  width: 6.0000096rem;
+  height: 6.0000096rem;
+}
+.content-right {
+  float: right;
+  width: 11.42401828rem;
+  height: 6.0000096rem;
+}
+.eck-hea {
+  margin-top: 0.96000154rem;
+}
+.main-point {
+  float: left;
+  margin-top: 0.48000077rem;
+  width: 18.0000288rem;
+  height: auto;
+}
+.point-content {
+  float: left;
+  background: #ffffff;
+  margin-bottom: 0.96000154rem;
+  height: 4.80000768rem;
+  width: 100%;
+}
+.point-img {
+  float: left;
+  position: relative;
+  height: 4.80000768rem;
+  width: 9.0000144rem;
+}
+.nt-img {
+  position: absolute;
+  height: 4.80000768rem;
+  width: 9.0000144rem;
+  float: left;
+}
+.nt-imga {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2.11200338rem;
+  width: 2.11200338rem;
+}
+.content-right {
+  float: right;
+  padding: 0 0.48000077rem;
+  width: 9.0000144rem;
+  height: 4.80000768rem;
+}
+.content-right > h2 {
+  float: left;
+  font-size: 0.76800123rem;
+  margin-top: 0.28800046rem;
+  width: 100%;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content-right > p {
+  float: left;
+  margin-top: 0.57600092rem;
+  font-size: 0.67200108rem;
+}
+.ontent-rig {
+  float: left;
+  margin-top: 0.72000115rem;
+  width: 100%;
+}
+.ontent-rig > p {
+  float: left;
+  font-size: 0.67200108rem;
+}
+.ontent-rig > span {
+  float: right;
+  font-size: 0.67200108rem;
+}
+.ent-rig {
+  color: #02b300;
+}
+.ontent-ri {
+  color: #999;
+}
+.Bigger {
+  float: left;
+  margin-left: 4.0000064rem;
+  width: 9.60001536rem;
+  height: 1.4400023rem;
+  border-radius: 2px;
+  border: 1px solid #02b300;
+  color: #02b300;
+  background: #ffffff;
+  font-size: 0.76800123rem;
+  margin-bottom: 3.84000614rem;
+}
+.swiper-pagination-bullet-active {
+  background: #02b300;
+}
+.iper-sli {
+  background: #ffffff;
+  width: 17.52002803rem;
+}
+a {
+  color: #222;
+}
+#swiswi {
+  float: left;
+  width: 6.48001037rem;
+  height: 6.48001037rem;
+  background: #e8f3e8;
+  text-align: center;
+}
+#swiswi > h2 {
+  width: 1.4400023rem;
+  margin: 1.20000192rem auto 0 auto;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -12.19201951rem -3.74400599rem;
+  background-size: 19.08003053rem;
+  height: 1.4400023rem;
+}
+#swiswi > p {
+  margin-top: 0.86400138rem;
+  font-size: 0.67200108rem;
+}
+.swiper-slide-right {
+  float: left;
+  padding: 0 0.48000077rem;
+  width: 11.52001843rem;
+  height: 6.0000096rem;
+}
+.swiper-slide-right > h2 {
+  float: left;
+  width: 100%;
+  margin-top: 0.19200031rem;
+  font-size: 0.76800123rem;
+  font-weight: 400;
+}
+.biaoTi {
+  float: left;
+  margin-top: 0.24000038rem;
+  width: 100%;
+  overflow: hidden;
+  font-size: 0.67200108rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.slide-content {
+  float: left;
+  margin-top: 0.43200069rem;
+  width: 100%;
+  font-weight: 300;
+  line-height: 0.96000154rem;
+  color: #666;
+  height: 2.83200453rem;
+  overflow: hidden;
+  font-size: 0.67200108rem;
+  text-overflow: ellipsis;
+}
+.swiper-container1 {
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+.swiper-container1 {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.lide {
+  float: left;
+  width: 6.48001037rem;
+  height: 6.48001037rem;
+}

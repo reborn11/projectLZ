@@ -1,0 +1,181 @@
+header {
+  float: left;
+  width: 100%;
+  padding: 0 0.48000077rem;
+  background: #ffffff;
+}
+.keti,
+.quanbt {
+  float: left;
+  font-size: 0.76800123rem;
+  margin-top: 0.81600131rem;
+  font-weight: 300;
+}
+.keti > span {
+  color: #c11a27;
+}
+.quanbt {
+  float: right;
+  color: #119779;
+}
+.shurq {
+  float: left;
+  width: 100%;
+  height: 1.4400023rem;
+  line-height: 1.4400023rem;
+  margin-top: 1.39200223rem;
+}
+.shurp {
+  float: left;
+  font-size: 0.76800123rem;
+}
+.shurq > input {
+  float: right;
+  width: 13.00802081rem;
+  height: 1.4400023rem;
+  border-radius: 0.19200031rem;
+  font-size: 0.76800123rem;
+  padding: 0 0 0 0.96000154rem;
+  border: 1px solid #dedede;
+}
+.tixian {
+  float: left;
+  width: 100%;
+  height: 2.16000346rem;
+  border-radius: 0.19200031rem;
+  margin-top: 1.4400023rem;
+  border: none;
+  font-size: 0.76800123rem;
+  color: #ffffff;
+  background: #02b300;
+}
+.zhuy {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 0.57600092rem;
+  margin: 0.48000077rem 0 0.72000115rem 0;
+}
+.zhuy > span {
+  color: #c11a27;
+}
+.lianxlf {
+  float: right;
+  width: 100%;
+}
+.lx-zi {
+  float: right;
+  margin-left: 0.38400061rem;
+}
+.kef-img {
+  float: right;
+  width: 0.81600131rem;
+  height: 0.81600131rem;
+  margin-top: 0.19200031rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -2.30400369rem -1.15200184rem;
+  background-size: 19.08003053rem;
+}
+.content,
+.con-yue {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.yuefen {
+  float: left;
+  height: 1.4400023rem;
+  width: 100%;
+  padding: 0 0.48000077rem;
+  line-height: 1.4400023rem;
+  font-size: 0.76800123rem;
+}
+.yuef-yue {
+  float: left;
+}
+.con-yue > li {
+  float: left;
+  width: 100%;
+  height: 4.08000653rem;
+  padding: 0 0.48000077rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+}
+.li-big {
+  float: left;
+  width: 13.92002227rem;
+  height: 100%;
+}
+.li-riq {
+  float: left;
+  color: #555555;
+  font-weight: 300;
+  width: 3.74400599rem;
+}
+.li-qiana {
+  float: left;
+  width: 8.40001344rem;
+}
+.i-ri {
+  color: #000000;
+  font-weight: 300;
+}
+.qia {
+  font-weight: 300;
+  color: #666666;
+}
+.li-big > p {
+  margin-top: 0.67200108rem;
+}
+.yue-dongj {
+  float: right;
+  line-height: 4.08000653rem;
+  color: #1897d2;
+}
+.tanc {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.cont-tanc {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 13.20002112rem;
+  height: 7.72801236rem;
+  border-radius: 0.19200031rem;
+  background: #ffffff;
+}
+.weix {
+  float: left;
+  width: 100%;
+  padding: 0 0.48000077rem;
+  font-size: 0.72000115rem;
+}
+.weix span {
+  color: #02b300;
+}
+.qued {
+  float: left;
+  margin-top: 0.81600131rem;
+  margin-left: 4.32000691rem;
+  width: 4.32000691rem;
+  height: 1.68000269rem;
+  border-radius: 0.19200031rem;
+  font-size: 0.76800123rem;
+  color: #e6e6e6;
+  border: none;
+  background: #02b300;
+}
+.wei {
+  text-align: center;
+  color: #c91623;
+  font-size: 0.76800123rem;
+  margin: 0.76800123rem 0 0.43200069rem;
+}

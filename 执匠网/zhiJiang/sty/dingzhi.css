@@ -1,0 +1,270 @@
+select {
+  outline: none;
+}
+select::-ms-expand {
+  display: none;
+}
+.xq-hear {
+  background: #ffffff;
+  float: left;
+  height: 3.84000614rem;
+  line-height: 1.96800315rem;
+  width: 100%;
+  padding: 0.96000154rem 0.48000077rem;
+}
+.touX {
+  float: left;
+  width: 1.92000307rem;
+  height: 1.92000307rem;
+  margin-right: 0.48000077rem;
+  border-radius: 50%;
+}
+.head-left {
+  float: left;
+  font-size: 0.76800123rem;
+}
+.xq-hear > time {
+  float: right;
+  font-size: 0.624001rem;
+  color: #4c4c4c;
+}
+.content {
+  float: left;
+  height: auto;
+  width: 100%;
+}
+.con-head {
+  float: left;
+  height: 1.92000307rem;
+  width: 100%;
+  padding: 0 0.48000077rem;
+  line-height: 1.96800315rem;
+  font-size: 0.76800123rem;
+  color: #1a1a1a;
+}
+.head-tou {
+  position: relative;
+  float: left;
+  padding-bottom: 1.4400023rem;
+  width: 100%;
+  color: #808080;
+  background: #ffffff;
+  line-height: 2.25600361rem;
+}
+.head-tou span {
+  position: absolute;
+  background: #03b400;
+  width: 16.66666667%;
+  left: 0;
+  top: 2.20800353rem;
+  height: 0.09600015rem;
+}
+.head-tou li {
+  float: left;
+  font-size: 0.76800123rem;
+  width: 16.66666667%;
+  text-align: center;
+  border-bottom: 1px solid #e6e6e6;
+}
+.back-color {
+  color: #03b400;
+}
+.head-sele {
+  float: left;
+  width: 17.04002726rem;
+  height: 1.4400023rem;
+  margin: 0.96000154rem 0.48000077rem 0 0.48000077rem;
+  border: solid 1px #cccccc;
+  border-radius: 0.09600015rem;
+  font-size: 0.76800123rem;
+  color: #03b400;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url(../images/arrow.png) no-repeat;
+  background-position: 16.08002573rem 0.48000077rem;
+  padding: 0 0.48000077rem;
+}
+.head-img {
+  float: left;
+  width: 100%;
+  font-size: 1.63200261rem;
+  height: 7.68001229rem;
+  background: #ffffff;
+  padding: 0.96000154rem 0.48000077rem 1.4400023rem 0.48000077rem;
+}
+.head-a {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 5.28000845rem;
+  font-size: 2.16000346rem;
+  color: #878787;
+  height: 5.28000845rem;
+}
+.head-no {
+  position: absolute;
+  width: 1.05600169rem;
+  height: 1.05600169rem;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 1.00800161rem;
+  line-height: 1.05600169rem;
+  text-align: center;
+  top: 0.24000038rem;
+  right: 0.24000038rem;
+  background: #858585;
+}
+.head-img-a {
+  position: absolute;
+  height: 2.16000346rem;
+  width: 0.24000038rem;
+  margin-left: 2.52000403rem;
+  margin-top: 1.5600025rem;
+  border-radius: 0.12000019rem;
+  background: #878787;
+}
+.head-cha {
+  border: 1px solid #cccccc;
+}
+.head-img-b {
+  width: 2.16000346rem;
+  position: absolute;
+  height: 0.24000038rem;
+  margin-top: 2.52000403rem;
+  margin-left: 1.5600025rem;
+  border-radius: 0.12000019rem;
+  background: #878787;
+}
+.head-a > input {
+  position: absolute;
+  height: 5.28000845rem;
+  width: 5.28000845rem;
+  color: #ffffff;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.head-a img {
+  float: left;
+  width: 5.28000845rem;
+}
+.head-tu {
+  text-align: center;
+  line-height: 5.28000845rem;
+  font-size: 0.76800123rem;
+  color: #ffffff;
+  background: url(http://procctech.oss-cn-shanghai.aliyuncs.com/images/yangshik.png) no-repeat center;
+  background-size: 100%;
+}
+.head-dashi {
+  background: url(http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png) -6.04800968rem -10.70401713rem;
+  background-size: 19.08003053rem;
+}
+.tou-a {
+  float: left;
+  font-size: 0.76800123rem;
+  margin: 0 0.57600092rem 0 0.48000077rem;
+}
+.tou-b {
+  float: left;
+  font-size: 0.76800123rem;
+  margin: 0 0.57600092rem 0 2.25600361rem;
+}
+.ad-tou {
+  height: 2.64000422rem;
+}
+.ad-tou > input {
+  float: left;
+  height: 0.86400138rem;
+  margin-top: 0.72000115rem;
+  width: 0.86400138rem;
+  border: 1px solid #cccccc;
+}
+.ead-se {
+  color: #666666;
+}
+.head-tou > textarea {
+  float: left;
+  width: 17.04002726rem;
+  outline: none;
+  height: 5.56800891rem;
+  padding: 0.48000077rem;
+  margin: 0.96000154rem 0.48000077rem 0 0.48000077rem;
+  font-size: 0.67200108rem;
+  border: 1px solid #cccccc;
+  border-radius: 0.04800008rem;
+  background: #ffffff;
+}
+.end {
+  float: left;
+  width: 100%;
+  height: 2.30400369rem;
+  background: #c81822;
+  text-align: center;
+  font-size: 0.86400138rem;
+  line-height: 2.40000384rem;
+  color: #ffffff;
+}
+.gai-haed {
+  position: fixed;
+  padding: 0 0.48000077rem;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  left: 0;
+  top: 0;
+}
+.head-qux {
+  position: absolute;
+  width: 17.04002726rem;
+  border-radius: 0.624001rem;
+  background: #ffffff;
+  bottom: 0.48000077rem;
+  font-size: 0.91200146rem;
+  text-align: center;
+  font-weight: 700;
+  color: #007bff;
+  line-height: 2.73600438rem;
+  height: 2.73600438rem;
+}
+.haed-big {
+  position: absolute;
+  width: 17.04002726rem;
+  height: 4.32000691rem;
+  border-radius: 0.624001rem;
+  color: #000;
+  background: #ffffff;
+  bottom: 3.69600591rem;
+}
+.big-t {
+  float: left;
+  text-align: center;
+  font-size: 0.86400138rem;
+  line-height: 2.18400349rem;
+  width: 100%;
+  height: 50%;
+  border-bottom: 1px solid #e6e6e6;
+}
+.haed-sty {
+  position: absolute;
+  bottom: -8.40001344rem;
+  overflow: hidden;
+  width: 100%;
+  height: 8.40001344rem;
+}
+.bin-last {
+  position: relative;
+}
+.xuaz {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  border: 1px solid red;
+  opacity: 0;
+}
+input {
+  -webkit-appearance: checkbox;
+  outline: none;
+}

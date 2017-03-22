@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定制</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="screen-orientation" content="portrait">
+
+    <link rel="stylesheet" href="./public/css/commo.css">
+    <link rel="stylesheet" href="./public/css/swiper.min.css">
+    <link rel="stylesheet" href="./sty/edition.css">
+
+</head>
+<body>
+<ul class="content">
+    <li>
+        <input type="file" accept="image/*" capture="camera" class="teng-pa">
+        <p class="toux">我的头像</p>
+        <span class="cont-rig"></span>
+        <img src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/touxiang.jpg" alt="" class="con-tx">
+    </li>
+    <li class="xiu-name">
+        <p class="toux">我的昵称</p>
+        <span class="cont-rig"></span>
+        <p class="con-name name">孤独的菜刀</p>
+    </li>
+    <li id="byya">
+        <a href="" style="float: left;width: 100%;height: 100%;">
+            <p class="toux">绑定手机</p>
+            <span class="cont-rig"></span>
+            <p class="con-name">150*****021</p>
+        </a>
+    </li>
+    <li style="border-top: 1px solid #e6e6e6;" class="sex">
+        <p class="toux">性别</p>
+        <span class="cont-rig"></span>
+        <p class="con-name con-sex">未设置</p>
+    </li>
+    <li class="suozdj">
+        <p class="toux">所在城市</p>
+        <span class="cont-rig"></span>
+        <p class="con-name con-nam">未填写</p>
+    </li>
+</ul>
+
+<div class="xiugai">
+    <div class="gai-haed">
+        <div class="haed-sty">
+            <p class="head-qux">取消</p>
+            <div class="haed-big">
+                <p class="big-top big-t">男</p>
+                <p class="bin-last big-t" style="border: 0;">女</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="gai-first" style="display: none">
+        <input maxlength="8" type="text" class="gia-con" placeholder="2-8中英文字符">
+        <input type="button" class="fri-save" value="保存">
+    </div>
+
+    <div class="addr" style="display: none;">
+        <div class="addr-lef">
+            <span class="lef-titl">定位城市</span>
+            <p class="lef-diqu city">正在加载...</p>
+        </div>
+        <div class="dingzhisx">
+            <p class="alb al a">A</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb b">B</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb c">C</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb d">D</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb e">E</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb f">F</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb g">G</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb h">H</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb j">J</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb k">K</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb l">L</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb m">M</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb n">N</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb p">P</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb q">Q</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb r">R</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb s">S</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb t">T</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb w">W</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb x">X</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb y">Y</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+            <p class="alb z">Z</p>
+            <ul>
+                <li>鞍山</li>
+            </ul>
+        </div>
+
+        <div class="addr-fine">
+            <ul class="zimu">
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<script src="./public/js/jquery.min.js"></script>
+<script src="./public/js/var.js"></script>
+<script>
+    $(document).ready(function(){
+
+        $.getScript('http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js',function(){
+            $(".city").html(remote_ip_info.city);
+        });
+        $('.suozdj').click(function(){
+            $(this).parent().hide();
+            $('.addr').fadeIn(300);
+        });
+        $('.dingzhisx li').click(function(){
+           var str=$(this).html();
+            $('.addr').hide();
+            $('.content').fadeIn();
+            $('.con-nam').html(str);
+//            alert(str);
+        });
+        $('.xiu-name').click(function(){
+            $('.content').hide();
+            $('.gai-first').fadeIn().siblings().hide();
+        });
+        $('.fri-save').click(function(){
+            var sty= $('.gia-con').val();
+            if (sty.length<2){
+                alert('请输入2-8位中英文字符')
+            } else {
+                $('.gai-first').hide();
+                $('.content').fadeIn();
+                $('.name').html(sty);
+            }
+        });
+        $('.sex').click(function(){
+            $('.gai-haed').fadeIn(200);
+            $('.haed-sty').animate({bottom:0},200);
+        });
+        $('.head-qux,.xiugai').click(function(){
+            $('.gai-haed').fadeOut(200);
+            $('.haed-sty').animate({bottom:-8.40001344+'rem'},200);
+        });
+
+        $('.big-t').click(function(){
+            var sex=$(this).html();
+            $('.con-sex').html(sex);
+            $('.gai-haed').fadeOut(200);
+            $('.haed-sty').animate({bottom:-8.40001344+'rem'},200);
+        });
+        $(function () {
+            var sty = [
+                'A',
+                'B',
+                'C',
+                'D',
+                'E',
+                'F',
+                'G',
+                'H',
+                'J',
+                'K',
+                'L',
+                'M',
+                'N',
+                'P',
+                'Q',
+                'R',
+                'S',
+                'T',
+                'W',
+                'X',
+                'Y',
+                'Z'
+            ];
+            var letter="";
+            for (var i=0;i<sty.length;i++){
+                letter+='<li>'+sty[i]+'</li>';
+            }
+            $('.zimu').html(letter);
+
+            $('.zimu>li').click(function(){
+
+                var sty=$(this).html();
+                sty = sty.toLowerCase();
+
+                var sty1=$('.'+sty).offset().top;
+                $('html,body').animate({scrollTop:sty1},300)
+            })
+
+        })
+    });
+
+</script>
+
+</html>

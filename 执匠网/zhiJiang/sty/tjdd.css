@@ -1,0 +1,517 @@
+header {
+  float: left;
+  width: 100%;
+  background: #ffffff;
+  height: auto;
+  margin-bottom: 0.48000077rem;
+}
+.head-con {
+  float: left;
+  height: auto;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/fenge.png") repeat-x 0 2.92800468rem;
+  background-size: 20px 0.24000038rem;
+  width: 100%;
+}
+.head-con > p {
+  float: left;
+  width: 100%;
+  height: 100%;
+  color: #1a1a1a;
+  font-size: 0.76800123rem;
+  padding: 1.10400177rem 0.48000077rem 0.96000154rem 0.48000077rem;
+}
+.head-site {
+  position: relative;
+  float: left;
+  color: #202020;
+  width: 100%;
+  height: auto;
+  padding: 0.96000154rem 0.48000077rem;
+  background-size: 0.48000077rem;
+}
+.stie-lef,
+.stie-rig {
+  top: 1.10400177rem;
+  background: url(http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png) -1.4400023rem -1.10400177rem;
+}
+.stie-rig {
+  top: 3.0000048rem;
+  right: 0rem;
+  background: url(http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png) -0.72000115rem -0.24000038rem;
+}
+.filled-rig {
+  top: 1.20000192rem;
+  right: 0.48000077rem;
+  background: url(http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png) -0.72000115rem -0.24000038rem;
+}
+.stie-lef,
+.stie-rig,
+.filled-rig {
+  position: absolute;
+  height: 0.72000115rem;
+  width: 0.72000115rem;
+  background-size: 19.08003053rem;
+  margin-top: 0.04800008rem;
+}
+.Not-filled {
+  float: left;
+  color: #555555;
+  font-size: 0.67200108rem;
+}
+.head-filled {
+  float: left;
+  width: 100%;
+  color: #555555;
+  height: auto;
+}
+.filled-dinw {
+  float: left;
+  width: 0.72000115rem;
+  height: 0.72000115rem;
+  margin-top: 0.09600015rem;
+  background: url("../images/dingwei.png") no-repeat center;
+  background-size: 0.67200108rem;
+  color: #555555;
+}
+.filled-name {
+  float: left;
+  width: 8.88001421rem;
+  margin-left: 0.48000077rem;
+  font-size: 0.76800123rem;
+}
+.filled-phone {
+  float: right;
+  font-size: 0.76800123rem;
+}
+.xianxdiz {
+  float: left;
+  margin-left: 1.20000192rem;
+  width: 14.64002342rem;
+  font-size: 0.67200108rem;
+  margin-top: 0.76800123rem;
+}
+.content {
+  float: left;
+  height: auto;
+  margin-bottom: 0.48000077rem;
+  width: 100%;
+}
+.head-co {
+  background: #ffffff;
+}
+.con-hea,
+.con-hea > p {
+  background: none;
+  font-size: 0.67200108rem;
+}
+.con-hea ul {
+  float: left;
+  width: 100%;
+  padding: 0 0.48000077rem;
+  height: auto;
+}
+.con-hea ul li {
+  float: left;
+  height: 2.40000384rem;
+  width: 100%;
+  margin-bottom: 0.96000154rem;
+}
+.con-hea ul li img {
+  float: left;
+  width: 2.40000384rem;
+  margin-right: 0.48000077rem;
+}
+.hea-zs {
+  float: left;
+  margin-right: 1.29600207rem;
+}
+.hea-ml {
+  float: left;
+  margin-top: 0.28800046rem;
+  width: 9.60001536rem;
+  color: #c91623;
+}
+.head-hej > p {
+  text-align: right;
+  font-size: 0.67200108rem;
+}
+.head-hej span {
+  color: #c91623;
+}
+.footer {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.foot-one {
+  float: left;
+  height: 2.88000461rem;
+  line-height: 2.73600438rem;
+  border-bottom: 1px solid #e6e6e6;
+  width: 100%;
+}
+.foote-jifen {
+  padding: 0 0.48000077rem;
+  color: #4c4c4c;
+  float: left;
+  margin-right: 0.96000154rem;
+}
+.foot-xiala {
+  float: left;
+  width: 3.60000576rem;
+  margin-top: 0.60000096rem;
+  height: 1.4400023rem;
+  appearance: none;
+  border-radius: 0;
+  border: 1px solid #777;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  color: #777;
+  background: url(../images/arrow.png) no-repeat 2.78400445rem 0.48000077rem;
+  padding: 0 0.48000077rem;
+}
+.foote-dedu {
+  float: right;
+  padding-right: 0.48000077rem;
+}
+.foote-dedu > span {
+  color: #c91623;
+}
+.foot-cost {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0.96000154rem 0.48000077rem;
+}
+.cost-wollens {
+  float: left;
+  margin-top: 0.24000038rem;
+  color: #4c4c4c;
+}
+.cost-switch {
+  float: right;
+  height: 1.4400023rem;
+  width: 2.88000461rem;
+  border: 1px solid #999;
+  border-radius: 0.72000115rem;
+}
+.switch-yuan {
+  float: left;
+  height: 1.34400215rem;
+  width: 1.34400215rem;
+  border: 1px solid #999;
+  background: #ffffff;
+  border-radius: 50%;
+}
+.yuan-back {
+  float: right;
+  border: none;
+}
+.cost-back {
+  background: #02b300;
+  border: 1px solid #02b300;
+}
+.cost-extra {
+  float: right;
+  margin-top: 0.76800123rem;
+  width: 100%;
+  color: #777;
+  text-align: right;
+}
+.indent {
+  float: right;
+  height: 2.35200376rem;
+  width: 100%;
+  line-height: 2.35200376rem;
+  font-size: 0.76800123rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.indent-btn {
+  float: right;
+  font-size: 0.76800123rem;
+  width: 4.80000768rem;
+  height: 100%;
+  color: #ffffff;
+  border: none;
+  background: #c91623;
+  border-radius: 0;
+  margin-left: 0.91200146rem;
+}
+.indent-jiaq {
+  float: right;
+}
+.indent-jiaq > span {
+  color: #c91623;
+}
+.foole {
+  float: left;
+  width: 100%;
+  padding: 0.96000154rem 0.48000077rem;
+}
+.tishi {
+  color: #999;
+}
+.foole-img {
+  float: right;
+  margin-top: 0.09600015rem;
+  width: 0.81600131rem;
+  height: 0.81600131rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -2.35200376rem -1.10400177rem;
+  background-size: 19.08003053rem;
+}
+.foole a {
+  float: right;
+  color: #4c4c4c;
+  margin-left: 0.38400061rem;
+}
+.Payment {
+  z-index: 999;
+  position: fixed;
+  font-size: 0.76800123rem;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  left: 0;
+  top: 0;
+}
+.Pay-con {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 16.70402673rem;
+  background: #ffffff;
+}
+.con-head {
+  float: left;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #e6e6e6;
+  line-height: 2.64000422rem;
+  height: 2.64000422rem;
+}
+.con-head > span {
+  position: absolute;
+  width: 0.72000115rem;
+  right: 0.48000077rem;
+  top: 0.96000154rem;
+  height: 0.72000115rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -10.27201644rem -0.28800046rem;
+  background-size: 19.08003053rem;
+}
+.con-head > p {
+  position: absolute;
+  width: 0.72000115rem;
+  left: 0.48000077rem;
+  top: 0.96000154rem;
+  height: 0.86400138rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -13.39202143rem -0.21600035rem;
+  background-size: 19.08003053rem;
+}
+.way {
+  float: left;
+  width: 100%;
+  padding: 0.76800123rem 0.48000077rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.way-lef {
+  float: left;
+  color: #555;
+}
+.way-rig {
+  float: right;
+  margin-right: 0.48000077rem;
+}
+.way > span {
+  float: right;
+  width: 0.72000115rem;
+  margin-top: 0.24000038rem;
+  height: 0.72000115rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -0.57600092rem -0.24000038rem;
+  background-size: 24.0000384rem;
+}
+.money {
+  float: left;
+  padding: 0.76800123rem 0.48000077rem;
+  width: 100%;
+  height: auto;
+  color: #888;
+  border-bottom: 1px solid #e6e6e6;
+}
+.mone-top {
+  float: left;
+  width: 100%;
+}
+.moneine {
+  float: left;
+}
+.mone {
+  float: right;
+}
+.mone-to {
+  margin-top: 0.33600054rem;
+  font-size: 0.67200108rem;
+}
+.queding {
+  float: left;
+  margin: 0.48000077rem 0.48000077rem 0.76800123rem 0.48000077rem;
+  width: 17.04002726rem;
+  height: 1.92000307rem;
+  border-radius: 0.19200031rem;
+  background: #02b300;
+  border: none;
+  font-size: 0.76800123rem;
+  color: #ffffff;
+}
+.fool {
+  position: absolute;
+  bottom: 0.33600054rem;
+  width: 100%;
+  font-size: 0.624001rem;
+  padding: 0 0.48000077rem 0.33600054rem 0.48000077rem;
+  color: #999999;
+}
+.fool-rig {
+  float: left;
+}
+.fool-lef {
+  float: right;
+}
+.fool-lef > span {
+  float: left;
+  margin: 0.19200031rem 0.33600054rem 0;
+  height: 0.72000115rem;
+  width: 0.72000115rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -2.35200376rem -1.15200184rem;
+  background-size: 19.08003053rem;
+}
+.big-one {
+  float: left;
+  padding: 0 0.48000077rem;
+  width: 100%;
+}
+.one-top {
+  float: left;
+  width: 100%;
+  height: 2.64000422rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.one-top > span {
+  float: left;
+  width: 1.96800315rem;
+  height: 1.96800315rem;
+  margin-top: 0.33600054rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") 0 -5.56800891rem;
+  background-size: 19.08003053rem;
+}
+.top-xinq {
+  float: left;
+  margin-left: 0.48000077rem;
+  width: 6.24000998rem;
+  height: 100%;
+}
+.top-xinq > p {
+  float: left;
+  width: 100%;
+}
+.xinq-top {
+  margin-top: 0.33600054rem;
+  font-size: 0.76800123rem;
+}
+.xinq-sxf {
+  float: left;
+  font-size: 0.67200108rem;
+  color: #999999;
+}
+.gou-a,
+.gou-b {
+  float: right;
+  width: 0.96000154rem;
+  height: 0.96000154rem;
+  border-radius: 50%;
+  border: 1px solid #888888;
+  margin: 0.81600131rem 0.72000115rem 0 0;
+}
+.gou-back {
+  border: none;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") #c41d22 -8.30401329rem -0.04800008rem;
+  background-size: 18.24002918rem;
+}
+.gou-one {
+  background: #c41d22;
+  border: none;
+}
+.one-t > span {
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -4.89600783rem -5.56800891rem;
+  background-size: 19.08003053rem;
+}
+.t-rig {
+  float: right;
+  width: 3.60000576rem;
+  height: 1.4400023rem;
+  border-radius: 0.19200031rem;
+  text-align: center;
+  line-height: 1.4400023rem;
+  color: #ffffff;
+  margin-top: 0.624001rem;
+  background: #02b300;
+}
+.e-top > span {
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -2.35200376rem -5.56800891rem;
+  background-size: 19.08003053rem;
+}
+.popup {
+  position: fixed;
+  width: 100%;
+  overflow: auto;
+  height: 100%;
+  background: #f0f0f0;
+  z-index: 9;
+}
+.popup-title {
+  background: #ffffff;
+  float: left;
+  padding: 0 0.48000077rem;
+  width: 100%;
+  height: 2.64000422rem;
+  line-height: 2.64000422rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+.popup-title > p {
+  font-size: 0.76800123rem;
+}
+.title-a {
+  float: left;
+}
+.title-b {
+  float: right;
+  color: #c91623;
+}
+.con-big {
+  background: #ffffff;
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.48000077rem;
+  padding: 0 0.48000077rem 0.76800123rem 0.48000077rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.big-name {
+  font-size: 0.76800123rem;
+  margin-top: 0.76800123rem;
+  float: left;
+  width: 50%;
+}
+.big-nam {
+  text-align: right;
+}
+.address {
+  float: left;
+  margin-top: 0.76800123rem;
+  width: 100%;
+  font-weight: 300;
+  color: #555555;
+  height: auto;
+}

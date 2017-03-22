@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定制</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="screen-orientation" content="portrait">
+    <link rel="stylesheet" href="./public/css/commo.css">
+
+    <!--<link rel='stylesheet' href='sty/justifiedgallery.min.css' type='text/css' media='all' />-->
+    <link rel='stylesheet' href='sty/swipebox.css' type='text/css' media='screen' />
+    <link rel="stylesheet" href="sty/sanc.css">
+
+
+</head>
+<body>
+<header>
+    <p class="head-lef">取消</p>
+    <p class="head-rig">确定</p>
+</header>
+<div class="con-neir">
+   <div class="con-head">
+       <p class="hea-biaq">主题标签</p>
+       <div class="head-haz">
+           <p class="hea-big shej" >设计中</p>
+           <p class="hea-big zhiz">制作中</p>
+           <p class="hea-big zhiz">制作中</p>
+           <p class="hea-big zhiz">制作中</p>
+           <p class="hea-big zhiz">制你好作中</p>
+           <p class="hea-big zhiz">制作中</p>
+       </div>
+   </div>
+    <textarea class="shur"  placeholder="输入您的内容......"></textarea>
+    <video src="">
+
+    </video>
+    <div class="swipeboxEx">
+
+        <a href="http://procctech.oss-cn-shanghai.aliyuncs.com/images/1.png" class="img-con">
+            <img src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/1.png" alt="">
+            <span class="imgcon-cha"></span>
+        </a>
+        <a href="http://procctech.oss-cn-shanghai.aliyuncs.com/images/yu.jpg" class="img-con">
+            <img src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/yu.jpg" alt="">
+            <span class="imgcon-cha"></span>
+        </a>
+        <a href="http://procctech.oss-cn-shanghai.aliyuncs.com/images/yu.jpg" class="img-con">
+            <img src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/yu.jpg" alt="">
+            <span class="imgcon-cha"></span>
+        </a>
+        <a href="http://procctech.oss-cn-shanghai.aliyuncs.com/images/yu.jpg" class="img-con">
+            <img src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/yu.jpg" alt="">
+            <span class="imgcon-cha"></span>
+        </a>
+        <a href="http://procctech.oss-cn-shanghai.aliyuncs.com/images/yu.jpg" class="img-con">
+            <img src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/yu.jpg" alt="">
+            <span class="imgcon-cha"></span>
+        </a>
+        <a href="http://procctech.oss-cn-shanghai.aliyuncs.com/images/yu.jpg" class="img-con">
+            <img src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/yu.jpg" alt="">
+            <span class="imgcon-cha"></span>
+        </a>
+        <a href="http://procctech.oss-cn-shanghai.aliyuncs.com/images/yu.jpg" class="img-con">
+            <img src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/yu.jpg" alt="">
+            <span class="imgcon-cha"></span>
+        </a>
+        <a href="http://procctech.oss-cn-shanghai.aliyuncs.com/images/yu.jpg" class="img-con">
+            <img src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/yu.jpg" alt="">
+            <span class="imgcon-cha"></span>
+        </a>
+
+    </div>
+    <div  class="g-con">
+        <span></span>
+        <input type="file" class="pzsx">
+    </div>
+
+</div>
+
+</body>
+<script src="./public/js/jquery.min.js"></script>
+<!--<script src="./public/js/swiper.min.js"></script>-->
+<script src="./public/js/var.js"></script>
+<script src='./public/js/justifiedgallery.js'></script>
+<script>
+    $(document).ready(function () {
+//        var mySwiper = new Swiper('.swiper-container', {
+//            pagination: '.swiper-pagination',
+//            paginationType: 'fraction',
+//            observer: true,//修改swiper自己或子元素时，自动初始化swiper
+//            observeParents: true,//修改swiper的父元素时，自动初始化swiper
+//            activeIndex: 3
+//        });
+        $('.swipeboxEx').each(function (i, el) {
+            $(el).justifiedGallery({rel: 'gal' + i}).on('jg.complete', function () {
+                if (i == 0) $('.swipeboxEx a').swipebox(); //如果想调用1个相册对应i值为0，同理3个相册，i值为2。
+            });
+        });
+
+        $('.hea-big').click(function () {
+            $(this).addClass('hea-color').siblings().removeClass('hea-color');
+        });
+        var str = $('.img-con').length;
+        if (str > 8) {
+            $('.g-con').hide();
+        }
+        $('.swiper-container').click(function () {
+            $(this).fadeOut(300);
+        });
+        $('.img-con').click(function () {
+            $('.swiper-container').fadeIn(300);
+        });
+        $('input').click(function () {
+            $('.swiper-container').show();
+        })
+    })
+
+
+</script>
+</html>

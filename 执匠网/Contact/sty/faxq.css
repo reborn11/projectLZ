@@ -1,0 +1,424 @@
+header {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.head {
+  float: left;
+  width: 100%;
+  padding: 0.38400061rem 0.48000077rem;
+  height: 3.69600591rem;
+  border-bottom: 1px solid #02b300;
+}
+.head ul,
+.head-las ul {
+  float: left;
+  width: 100%;
+  padding-top: 0.24000038rem;
+  height: auto;
+}
+.head ul li,
+.head-las ul li {
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 50%;
+  height: 1.20000192rem;
+  font-size: 0.67200108rem;
+  color: #02b300;
+}
+.head-time {
+  margin-top: 0.24000038rem;
+}
+.head-las {
+  float: left;
+  width: 100%;
+  padding: 0 0.48000077rem 0.72000115rem 0.48000077rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.head-las > ul > li {
+  color: #666666;
+  font-weight: 300;
+}
+.head-na {
+  float: left;
+  margin-top: 0.76800123rem;
+  width: 100%;
+}
+.na-lin {
+  float: left;
+  font-size: 0.67200108rem;
+  color: #02b300;
+}
+.na-right {
+  float: right;
+  font-size: 0.67200108rem;
+}
+.na-imgz {
+  float: right;
+  width: 0.81600131rem;
+  height: 0.81600131rem;
+  margin: 0.04800008rem 0.19200031rem 0 0.96000154rem;
+  background-size: 19.08003053rem;
+}
+.las-xq {
+  color: #444444;
+  float: left;
+  font-size: 0.67200108rem;
+  font-weight: 300;
+  width: 100%;
+}
+.xq-dashi {
+  margin: 0.76800123rem 0;
+}
+.xq-bea {
+  float: left;
+  width: 100%;
+  margin-bottom: 0.14400023rem;
+}
+.las-xq > img {
+  display: inline-block;
+  width: 5.47200876rem;
+  height: 5.47200876rem;
+}
+.las-miaos {
+  float: left;
+  width: 100%;
+  font-size: 0.76800123rem;
+  margin-top: 0.76800123rem;
+}
+.las-conten {
+  float: left;
+  width: 100%;
+  font-size: 0.76800123rem;
+  padding: 0.76800123rem 0 0 0;
+  color: #777;
+}
+.content {
+  float: left;
+  background: #ffffff;
+  width: 100%;
+  height: auto;
+  padding: 0 0.48000077rem;
+}
+.con-head {
+  float: left;
+  width: 100%;
+  line-height: 3.36000538rem;
+  height: 3.12000499rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.con-head > span {
+  float: left;
+  width: 0.24000038rem;
+  margin: 1.58400253rem 0.24000038rem 0 0;
+  height: 0.24000038rem;
+  border-radius: 50%;
+  background: #de373e;
+}
+.tenthd {
+  float: left;
+  font-size: 0.76800123rem;
+}
+.con-head > time {
+  float: right;
+  font-size: 0.76800123rem;
+  color: #666666;
+  font-weight: 300;
+}
+.quire-Details {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.Details-dear {
+  font-size: 0.76800123rem;
+  margin: 0.86400138rem 0;
+}
+.dear-img {
+  float: left;
+  width: 100%;
+  height: 4.80000768rem;
+}
+.dear-img > img {
+  float: left;
+  width: 4.80000768rem;
+  height: 4.80000768rem;
+  margin-right: 0.48000077rem;
+}
+.dear-img li {
+  float: left;
+  width: 8.40001344rem;
+  font-weight: 300;
+  color: #666;
+  margin-top: 0.67200108rem;
+}
+.dear-im {
+  margin-top: 0.96000154rem;
+}
+.dear-img span {
+  color: #c91623;
+  font-weight: 300;
+}
+.las-miao {
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 0.33600054rem;
+}
+.las-c {
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 0.76800123rem;
+}
+.deta-tim {
+  float: left;
+  width: 100%;
+  line-height: 2.59200415rem;
+  height: 2.59200415rem;
+  font-size: 0.624001rem;
+  color: #555555;
+}
+.tim-time {
+  float: left;
+}
+.xuanz {
+  float: right;
+  font-size: 0.57600092rem;
+}
+.xuanza {
+  background: url(http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon1.png) -2.20800353rem -1.53600246rem;
+}
+.xuanzb {
+  background: url(http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png) -2.30400369rem -1.15200184rem;
+}
+.anza {
+  float: right;
+  width: 0.81600131rem;
+  margin: 0.96000154rem 0.24000038rem 0 0;
+  background-size: 19.08003053rem;
+  height: 0.81600131rem;
+}
+.xuanza {
+  background: url(http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon1.png) -2.20800353rem -1.53600246rem;
+  background-size: 12.0000192rem;
+}
+.xuanzc {
+  background: url(http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon1.png) -0.72000115rem -1.58400253rem;
+  background-size: 12.0000192rem;
+}
+.xzas {
+  background: url(http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon1.png) -1.34400215rem -1.58400253rem;
+  background-size: 12.0000192rem;
+}
+.content {
+  float: left;
+  height: auto;
+  width: 100%;
+}
+.anz {
+  color: #02b300;
+}
+.uan {
+  margin-right: 0.96000154rem;
+}
+.CPM {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.CPM-conten {
+  margin: auto;
+  padding: 0.96000154rem 1.58400253rem 1.4400023rem 1.58400253rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 13.20002112rem;
+  border-radius: 0.19200031rem;
+  height: 6.24000998rem;
+  background: #ffffff;
+  text-align: center;
+}
+.CPM-conten > p {
+  font-size: 0.76800123rem;
+  color: #1a1a1a;
+}
+.yes,
+.no {
+  width: 4.32000691rem;
+  font-size: 0.81600131rem;
+  line-height: 1.77600284rem;
+  height: 1.68000269rem;
+  border: none;
+  border-radius: 0.19200031rem;
+  margin-top: 1.4400023rem;
+}
+.yes {
+  float: left;
+  background: #c91623;
+  color: #ffffff;
+}
+.no {
+  float: right;
+  border: 1px solid #999999;
+  color: #999999;
+  background: #ffffff;
+}
+.Materi {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2.35200376rem;
+  background: #02b300;
+  color: #ffffff;
+  font-size: 0.76800123rem;
+  line-height: 2.35200376rem;
+  text-align: center;
+}
+.con {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.shangc {
+  float: left;
+  width: 100%;
+  padding: 0 0.48000077rem;
+  height: 2.35200376rem;
+  border-bottom: 1px solid #e6e6e6;
+  line-height: 2.35200376rem;
+  font-size: 0.76800123rem;
+  color: #02b300;
+}
+.Mater {
+  float: left;
+  width: 100%;
+  height: 2.35200376rem;
+}
+.con-lef {
+  float: left;
+}
+.con-rig {
+  float: right;
+  width: 4.80000768rem;
+  height: 1.4400023rem;
+  font-size: 0.76800123rem;
+  border-radius: 0;
+  border: 1px solid #02b300;
+  color: #02b300;
+  margin-top: 0.45600073rem;
+  background: #f5f5f5;
+}
+.fulfill {
+  margin-top: 0.48000077rem;
+  float: left;
+  padding: 0 0.48000077rem 3.36000538rem 0.48000077rem;
+}
+.body-content {
+  float: left;
+  height: auto;
+  width: 100%;
+  padding: 0 0 0.96000154rem 0;
+}
+.dear-nten {
+  float: left;
+  height: 1.4400023rem;
+  width: 4.80000768rem;
+}
+.dear-nten > h4 {
+  width: 0.12000019rem;
+  border-radius: 50%;
+  margin-left: 0.76800123rem;
+  height: 0.12000019rem;
+  background: #02b300;
+}
+.dear-nten > time {
+  float: left;
+  font-size: 0.57600092rem;
+  color: #02b300;
+  width: 100%;
+  padding: 0.21600035rem 0;
+}
+.dear-nten > h3 {
+  float: left;
+  width: 0.12000019rem;
+  border-radius: 50%;
+  margin-left: 0.76800123rem;
+  height: 0.12000019rem;
+  background: #02b300;
+}
+.jieSao {
+  float: right;
+  width: 16.22402596rem;
+  height: auto;
+  border-left: 0.02400004rem solid #c6c6c6;
+}
+.jieSao-content {
+  float: right;
+  width: 15.3120245rem;
+  font-size: 0.81600131rem;
+  height: auto;
+  padding: 0 0 0.96000154rem 0.28800046rem;
+}
+.jies-img {
+  float: right;
+  width: 14.88002381rem;
+}
+.jies-img > img {
+  float: left;
+  height: 4.80000768rem;
+  margin-left: 0.09600015rem;
+  width: 4.80000768rem;
+}
+.ieSao-co {
+  font-size: 0.76800123rem;
+  margin: 0.91200146rem 0 0.43200069rem;
+}
+.eSao-conte {
+  float: right;
+  width: 15.3120245rem;
+  font-weight: 300;
+  color: #666;
+  height: auto;
+  padding: 0 0 0.24000038rem 0.28800046rem;
+}
+footer > a {
+  float: left;
+  width: 100%;
+  height: 2.30400369rem;
+  background: #c81822;
+  text-align: center;
+  font-size: 0.76800123rem;
+  line-height: 2.40000384rem;
+  color: #ffffff;
+}
+.i-img {
+  height: 7.20001152rem;
+  width: 100%;
+}
+.ji-img {
+  float: right;
+  position: relative;
+  width: 14.88002381rem;
+}
+.z-img {
+  position: absolute;
+  width: 2.20800353rem;
+  height: 2.20800353rem;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+}
+.jieSao-cont {
+  float: right;
+  width: 15.3120245rem;
+  font-size: 0.81600131rem;
+  height: auto;
+  padding: 0.48000077rem 0;
+}

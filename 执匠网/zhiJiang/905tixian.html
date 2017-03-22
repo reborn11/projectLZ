@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定制</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="screen-orientation" content="portrait">
+
+    <link rel="stylesheet" href="./public/css/commo.css">
+    <link rel="stylesheet" href="./sty/tixian.css">
+</head>
+<body>
+<header>
+    <p class="keti">可提现金额：<span>￥1,500</span></p>
+    <p class="quanbt">全部提现</p>
+    <div class="shurq">
+        <p class="shurp">提现金额</p>
+        <input class="jine" type="text" placeholder="请输入提现金额">
+    </div>
+    <input type="button" class="tixian" value="提现">
+    <p class="zhuy"><span>注：</span>我们的提现是通过微信红包的方式及时打入您绑定的微信账号</p>
+    <a class="lianxlf">
+        <p class="lx-zi">联系客服</p>
+        <spam class="kef-img"></spam>
+    </a>
+</header>
+<div class="content">
+    <ul class="con-yue">
+        <div class="yuefen">
+            <p class="yuef-yue">本月</p>
+        </div>
+        <li>
+            <div class="li-big">
+                <p class="li-riq">08-07</p>
+                <p class="li-qiana">-￥50</p>
+                <p class="li-riq i-ri">周日</p>
+                <p class="li-qiana qia">提现</p>
+            </div>
+        </li>
+        <li>
+            <div class="li-big">
+                <p class="li-riq">08-11</p>
+                <p class="li-qiana">-￥50</p>
+                <p class="li-riq i-ri">周四</p>
+                <p class="li-qiana qia">提现</p>
+            </div>
+        </li>
+    </ul>
+    <ul class="con-yue">
+        <div class="yuefen">
+            <p class="yuef-yue">7月</p>
+        </div>
+        <li>
+            <div class="li-big">
+                <p class="li-riq">07-07</p>
+                <p class="li-qiana">-￥50</p>
+                <p class="li-riq i-ri">周日</p>
+                <p class="li-qiana qia">提现</p>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div class="tanc">
+    <div class="cont-tanc">
+        <p class="weix wei">提别提示</p>
+        <p class="weix we">一分钟之内只能提取一个红包，请稍后尝试。</p>
+        <input type="button" class="qued" value="确定">
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="./public/js/jquery.min.js"></script>
+<script src="./public/js/var.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.tixian').click(function(){
+            var str=$('.jine').val();
+            if(str==''){
+                $('.tanc').fadeIn(300);
+                $('.we').html('您还未输入提现金额，请您输入后尝试提现。')
+            }
+            if (str>250) {
+                $('.tanc').fadeIn(300);
+                $('.we').html('如提现超过200元,可分次提取,或加客服<span style="color:red">微信:zxc232</span>,指导您进行大额提取。')
+            }
+        });
+        $('.qued').click(function(){
+            $('.tanc').fadeOut(300);
+        })
+    })
+</script>
+</html>

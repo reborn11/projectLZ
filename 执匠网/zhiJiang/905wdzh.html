@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定制</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="screen-orientation" content="portrait">
+
+    <link rel="stylesheet" href="./public/css/commo.css">
+    <link rel="stylesheet" href="./sty/wdzh.css">
+</head>
+<body>
+
+<header>
+    <p class="head-p head-a">全部</p>
+    <p class="head-p head-b">收入</p>
+    <p class="head-p head-c">支出</p>
+</header>
+<div class="cont-big">
+    <div class="content cont-a">
+        <ul class="con-yue">
+            <div class="yuefen">
+                <p class="yuef-yue">本月</p>
+            </div>
+            <li>
+                <div class="li-big">
+                    <p class="li-riq">08-07</p>
+                    <p class="li-qiana">+￥50</p>
+                    <p class="li-riq i-ri">周日</p>
+                    <p class="li-qiana qia">订单65653218分佣</p>
+                </div>
+                <p class="yue-dongj">冻结中</p>
+            </li>
+            <li>
+                <div class="li-big">
+                    <p class="li-riq">08-11</p>
+                    <p class="li-qiana">+￥50</p>
+                    <p class="li-riq i-ri">周四</p>
+                    <p class="li-qiana qia">代言秀【发现定制一块...】</p>
+                </div>
+            </li>
+        </ul>
+        <ul class="con-yue">
+            <div class="yuefen">
+                <p class="yuef-yue">7月</p>
+            </div>
+            <li>
+                <div class="li-big">
+                    <p class="li-riq">07-20</p>
+                    <p class="li-qiana">+￥50</p>
+                    <p class="li-riq i-ri">周日</p>
+                    <p class="li-qiana qia">订单65653218分佣</p>
+                </div>
+            </li>
+            <li>
+                <div class="li-big">
+                    <p class="li-riq">07-11</p>
+                    <p class="li-qiana">-￥50</p>
+                    <p class="li-riq i-ri">周四</p>
+                    <p class="li-qiana qia">提现</p>
+                </div>
+            </li>
+            <li>
+                <div class="li-big">
+                    <p class="li-riq">07-07</p>
+                    <p class="li-qiana">+￥50</p>
+                    <p class="li-riq i-ri">周日</p>
+                    <p class="li-qiana qia">订单321656513付款</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="content cont-b" style="display: none">
+        <ul class="con-yue">
+            <div class="yuefen">
+                <p class="yuef-yue">本月</p>
+            </div>
+            <li>
+                <div class="li-big">
+                    <p class="li-riq">08-07</p>
+                    <p class="li-qiana">+￥100</p>
+                    <p class="li-riq i-ri">周日</p>
+                    <p class="li-qiana qia">订单65653218分佣</p>
+                </div>
+                <p class="yue-dongj">冻结中</p>
+            </li>
+            <li>
+                <div class="li-big">
+                    <p class="li-riq">08-11</p>
+                    <p class="li-qiana">+￥50</p>
+                    <p class="li-riq i-ri">周四</p>
+                    <p class="li-qiana qia">代言秀【发现定制一块...】</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="content cont-c" style="display: none">
+        <ul class="con-yue">
+            <div class="yuefen">
+                <p class="yuef-yue">本月</p>
+            </div>
+            <li>
+                <div class="li-big">
+                    <p class="li-riq">08-07</p>
+                    <p class="li-qiana">-￥70</p>
+                    <p class="li-riq i-ri">周日</p>
+                    <p class="li-qiana qia">提现</p>
+                </div>
+            </li>
+            <li>
+                <div class="li-big">
+                    <p class="li-riq">08-11</p>
+                    <p class="li-qiana">-￥20</p>
+                    <p class="li-riq i-ri">周四</p>
+                    <p class="li-qiana qia">代言秀【发现定制一块...】</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+</body>
+<script src="./public/js/jquery.min.js"></script>
+<script src="./public/js/var.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.head-p:first').addClass('back-color');
+        $('.head-p').click(function(){
+            $(this).addClass('back-color').siblings().removeClass('back-color')
+        });
+        $('.head-a').click(function(){
+            $('.cont-a').show().siblings().hide();
+        });
+        $('.head-b').click(function(){
+            $('.cont-b').show().siblings().hide();
+        });
+        $('.head-c').click(function(){
+            $('.cont-c').show().siblings().hide();
+        });
+    });
+</script>
+</html>

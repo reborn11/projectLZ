@@ -1,0 +1,119 @@
+header {
+  float: left;
+  padding: 0 0.48000077rem;
+  height: 2.6880043rem;
+  background: #ffffff;
+  line-height: 2.78400445rem;
+  width: 100%;
+  font-size: 0.76800123rem;
+}
+.head-lef {
+  float: left;
+  width: 0.09600015rem;
+  height: 0.81600131rem;
+  background: #02b300;
+  margin-top: 0.96000154rem;
+}
+.head-tuij {
+  float: left;
+  margin-left: 0.48000077rem;
+  color: #02b300;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2.30400369rem;
+  border-top: 1px solid #e6e6e6;
+}
+footer p {
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  font-size: 0.76800123rem;
+  line-height: 2.30400369rem;
+}
+.foot-b {
+  background: #02b300;
+  color: #ffffff;
+}
+.content {
+  float: left;
+  width: 100%;
+  padding-bottom: 2.88000461rem;
+  height: auto;
+}
+.content li {
+  float: left;
+  width: 100%;
+  padding: 0.96000154rem 0.48000077rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.con-toux {
+  float: left;
+  width: 3.84000614rem;
+  height: 3.84000614rem;
+  border-radius: 0.19200031rem;
+}
+.cont-neir {
+  float: left;
+  padding: 0 0.48000077rem;
+  width: 10.08001613rem;
+  height: 3.84000614rem;
+}
+.nei-tir {
+  float: left;
+  font-size: 0.76800123rem;
+  width: 100%;
+}
+.nei-trs {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #666666;
+  white-space: nowrap;
+}
+.chakan {
+  float: left;
+  color: #87c88b;
+}
+.cont-neir > p {
+  margin-top: 0.28800046rem;
+}
+.dagou {
+  float: right;
+  width: 2.40000384rem;
+  height: 1.20000192rem;
+  margin-top: 1.32000211rem;
+  color: #e6e6e6;
+  border: 1px solid #e6e6e6;
+  border-radius: 0.19200031rem;
+  text-align: center;
+}
+.dagou > span {
+  float: left;
+  margin: 0.3120005rem 0 0 0.88800142rem;
+  width: 0.67200108rem;
+  height: 0.57600092rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -16.36802619rem -0.52800084rem;
+  background-size: 19.08003053rem;
+}
+.dagoua {
+  background: #02b300;
+  text-align: center;
+  border: none;
+}
+.dagoua > span {
+  float: left;
+  margin: 0.3120005rem 0 0 0.88800142rem;
+  width: 0.67200108rem;
+  height: 0.624001rem;
+  background: url("http://procctech.oss-cn-shanghai.aliyuncs.com/images/icon.png") -8.83201413rem -0.33600054rem;
+  background-size: 19.08003053rem;
+}
+.gou-img {
+  float: left;
+}

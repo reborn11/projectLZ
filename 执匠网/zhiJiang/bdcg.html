@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定制</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="screen-orientation" content="portrait">
+
+    <script src="./public/js/var.js"></script>
+    <link rel="stylesheet" href="./public/css/commo.css">
+    <link rel="stylesheet" href="sty/bdcg.css">
+
+</head>
+<body>
+
+<div class="dead">
+    <h2>
+        <div class="de-img"></div>
+    </h2>
+    <p class="cheng">恭喜您，绑成功！</p>
+    <p class="tiao"><span id="time" class="nubmer">4</span>秒之后自动跳到首页</p>
+    <input class="submit" type="submit" value="立即体验">
+</div>
+
+<script type="text/javascript">
+    function delayURL() {
+        var delay = document.getElementById("time").innerHTML;
+        var t = setTimeout("delayURL()", 1000);
+        if (delay > 0) {
+            delay--;
+            document.getElementById("time").innerHTML = delay;
+        } else {
+            clearTimeout(t);
+            window.location.href = "home.html";
+        }
+    }
+    delayURL();
+</script>
+
+
+
+
+</body>
+<script src="./public/js/jquery.min.js"></script>
+</html>

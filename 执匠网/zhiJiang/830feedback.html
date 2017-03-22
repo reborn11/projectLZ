@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定制</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="screen-orientation" content="portrait">
+
+
+    <link rel="stylesheet" href="./public/css/commo.css">
+    <link rel="stylesheet" href="./public/css/swiper.min.css">
+    <link rel="stylesheet" href="./sty/feedback.css">
+
+</head>
+<body>
+<textarea maxlength="200" placeholder="亲爱的朋友，请输入您遇到的问题或者建议，谢谢您的支持"></textarea>
+<div class="tongj">
+    <span class="tongj-a">0</span>
+    /
+    <span>200</span>
+</div>
+<input type="button" value="发表">
+
+
+<script src="./public/js/jquery.min.js"></script>
+<script src="./public/js/var.js"></script>
+<script>
+    $(document).ready(function(){
+        $('textarea').bind('input',function(){
+            var str=$('textarea').val().length;
+            var bal=$('.tongj-a').text(str);
+            if (str=='200') {
+                bal.addClass('back-color')
+            } else {
+                bal.removeClass('back-color');
+            }
+        })
+    })
+</script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+header {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 1.92000307rem;
+  line-height: 1.92000307rem;
+  font-size: 0.76800123rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+}
+.xoah {
+  position: absolute;
+  height: 0.09600015rem;
+  width: 20%;
+  background: #02b300;
+  left: 0;
+  bottom: 0;
+}
+header > p {
+  float: left;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
+.head-color {
+  color: #02b300;
+}
+.content,
+.con-neir,
+.con-neir li {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+.con-neir li {
+  padding: 0 0.48000077rem;
+  margin-bottom: 0.48000077rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+}
+.neir-head {
+  float: left;
+  height: 2.40000384rem;
+  width: 100%;
+  line-height: 2.40000384rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.neir-head > time {
+  float: left;
+  font-size: 0.76800123rem;
+  color: #555;
+  font-weight: 300;
+}
+.head-rig {
+  float: right;
+  font-size: 0.76800123rem;
+  color: #02b300;
+}
+.neir-deta {
+  float: left;
+  width: 100%;
+  padding: 0.96000154rem 0;
+}
+.deta-img {
+  float: left;
+  width: 4.32000691rem;
+  border-radius: 0.19200031rem;
+  height: 4.32000691rem;
+}
+.deta-head,
+.head-morn,
+.head-red,
+.head-lv,
+.head-black {
+  float: left;
+  width: 11.04001766rem;
+  margin-left: 1.20000192rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.deta-head,
+.head-red {
+  font-size: 0.76800123rem;
+}
+.head-morn,
+.head-red,
+.head-black,
+.head-lv {
+  font-size: 0.72000115rem;
+  margin-top: 0.38400061rem;
+  color: #777;
+}
+.head-red {
+  color: red;
+}
+.head-black {
+  color: #333;
+}
+.head-lv {
+  color: #02b300;
+}
+footer > a {
+  width: 33.33333333%;
+}

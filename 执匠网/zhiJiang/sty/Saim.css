@@ -1,0 +1,72 @@
+header {
+  float: left;
+  height: 1.92000307rem;
+  width: 100%;
+  background: #ffffff;
+  line-height: 1.92000307rem;
+  padding: 0 1.4400023rem;
+  border-bottom: 0.02400004rem solid #c6c6c6;
+}
+header > p {
+  text-align: center;
+  float: left;
+  width: 4.94400791rem;
+  font-size: 0.76800123rem;
+}
+.heade-color {
+  color: #02b300;
+}
+.recom-a {
+  float: left;
+  height: 9.26401482rem;
+  width: 100%;
+  margin-bottom: 0.48000077rem;
+  padding: 0.96000154rem 0.48000077rem;
+  background: #ffffff;
+}
+a {
+  color: #333333;
+}
+.recom-a img {
+  float: left;
+  height: 2.40000384rem;
+  width: 2.40000384rem;
+  border-radius: 0.19200031rem;
+}
+.recom-a-name {
+  float: left;
+  margin-left: 0.48000077rem;
+  width: 8.16001306rem;
+  height: 2.40000384rem;
+}
+.recom-a-name > h4 {
+  font-size: 0.76800123rem;
+  font-weight: 400;
+}
+.ader-na,
+.ader-naa {
+  color: #666666;
+  float: left;
+  font-size: 0.72000115rem;
+  font-weight: 300;
+  margin-top: 0.19200031rem;
+}
+.ader-naa {
+  margin-left: 0.96000154rem;
+}
+.recom-img {
+  float: right;
+  margin-top: 0.60000096rem;
+  height: 4.5600073rem;
+  width: 14.40002304rem;
+}
+.recom-img > img {
+  float: right;
+  margin-left: 0.24000038rem;
+  width: 4.5600073rem;
+  height: 4.5600073rem;
+}
+.Ranking,
+.New {
+  display: none;
+}

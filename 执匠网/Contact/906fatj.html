@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定制</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="screen-orientation" content="portrait">
+    <link rel="stylesheet" href="./public/css/commo.css">
+    <link rel="stylesheet" href="sty/fatj.css">
+
+</head>
+<body>
+
+<header>
+    <p class="head-chep">方案类型: 定制</p>
+    <titme class="head-titme">提交时间:2016-08-30</titme>
+</header>
+<div class="content">
+    <div class="cont-fangan">
+        <p class="fam">方案标题</p>
+        <input type="text" class="fam-title" placeholder="请输入标题">
+    </div>
+    <div class="cont-fangan">
+        <p class="fam">成品</p>
+        <div class="con-bit">
+            <div class="bit-img">
+                <img src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/yu.jpg" alt="">
+                <span class="img-remov"></span>
+            </div>
+            <div class="bit-img">
+                <img src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/yu.jpg" alt="">
+                <span class="img-remov"></span>
+            </div>
+            <div class="bit-img">
+                <img src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/yu.jpg" alt="">
+                <span class="img-remov"></span>
+            </div>
+
+
+            <div class="fan-tianj" style="display: none">
+                <input type="file" class="tianj-apz" accept="image/*" >
+                <span class="paz-img"></span>
+            </div>
+        </div>
+        <div class="biaoq">
+            <p class="bia">玻璃种</p>
+            <p class="bia">冰种</p>
+            <p class="bia">冰糯种</p>
+            <p class="bia">糯种</p>
+            <p class="bia">豆种</p>
+        </div>
+        <input type="text" class="fam-title" placeholder="请输入价格">
+        <input style="margin-top:0;" type="text" class="fam-title" placeholder="请输入重量">
+    </div>
+
+    <div class="cont-fangan">
+        <p class="fam">匠师</p>
+        <div class="con-bit">
+            <div class="bit-imga">
+                <img src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/touxiang.jpg" alt="">
+                <span class="img-remova"></span>
+            </div>
+            <div class="bit-imga">
+                <img src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/touxiang.jpg" alt="">
+                <span class="img-remova"></span>
+            </div>
+            <div class="bit-imga">
+                <img src="http://procctech.oss-cn-shanghai.aliyuncs.com/images/touxiang.jpg" alt="">
+                <span class="img-remova"></span>
+            </div>
+        </div>
+        <input type="text" class="fam-title" placeholder="请输入加工天数">
+        <input style="margin-top:0;" type="text" class="fam-title" placeholder="请输入价格">
+    </div>
+    <div class="cont-fangan">
+        <p class="fam">方案描述</p>
+        <textarea placeholder="请在这里输入......"></textarea>
+    </div>
+    <div class="cont-fangan">
+        <p class="fam">方案截止日期</p>
+        <div class="biaoq">
+            <p class="bia">3天</p>
+            <p class="bia">5天</p>
+            <p class="bia">7天</p>
+            <p class="bia">10天</p>
+            <p class="bia">15天</p>
+        </div>
+        <input type="button" class="fam-title am-tit" value="提交">
+    </div>
+</div>
+
+
+
+
+</body>
+<script src="./public/js/jquery.min.js"></script>
+<script src="./public/js/var.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.bit-img').last().css('marginRight',0);
+        $('.bit-imga').last().css('marginRight',0);
+
+
+        $('.bia').click(function(){
+            $(this).addClass('back-color').siblings().removeClass('back-color');
+        });
+
+        $('.img-remov').click(function(){
+            $(this).parent().remove();
+            var str=$('.bit-img').length;
+            if (str<3) {
+                $('.fan-tianj').show();
+            }
+        });
+        $('.img-remova').click(function(){
+            $(this).addClass('imga');
+            $('.img-remova').not(this).removeClass('imga');
+        })
+    })
+</script>
+</html>
